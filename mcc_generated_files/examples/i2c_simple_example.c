@@ -154,6 +154,10 @@ void I2CSIMPLE_example(void)
     
     /* We zullen nu de bekomen resultaten omzetten naar een waarde die begrepen wordt door de pingpongtoren
      Voor de 16g-schaal die we gebruiken wordt in de datasheet een schaling van 0.732 mg/LSB gebruikt.*/
+    float total_x2;
+    total_x2 = total_x*0.000732;
+    float total_x3;
+    total_x3 = total_x2^2
     total_x = total_x*0.000732;
     total_y = total_y*0.000732;
     total_z = total_z*0.000732;

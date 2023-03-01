@@ -580,13 +580,13 @@ I2C1_NULL 5
 "98 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
 [v _I2CSIMPLE_example I2CSIMPLE_example `(v  1 e 1 0 ]
 {
-"122
-[v I2CSIMPLE_example@total_z total_z `s  1 a 2 25 ]
+"120
+[v I2CSIMPLE_example@total_x total_x `s  1 a 2 25 ]
 "121
 [v I2CSIMPLE_example@total_y total_y `s  1 a 2 23 ]
-"120
-[v I2CSIMPLE_example@total_x total_x `s  1 a 2 21 ]
-"163
+"122
+[v I2CSIMPLE_example@total_z total_z `s  1 a 2 21 ]
+"164
 } 0
 "5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\printf.c
 [v _printf printf `(i  1 e 2 0 ]

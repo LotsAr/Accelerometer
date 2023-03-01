@@ -8,12 +8,12 @@
 
 ### Memory Usage ###
  Intel Hex-file ranges:
-  0h - 20C3h		(dist/default/production\Accelerometer.production.hex)
-  2FD8h - 2FFFh		(dist/default/production\Accelerometer.production.hex)
+  0h - 20A9h		(dist/default/production\Accelerometer.production.hex)
+  2FA4h - 2FFFh		(dist/default/production\Accelerometer.production.hex)
   10000h - 10007h		(dist/default/production\Accelerometer.production.hex)
   1000Eh - 10015h		(dist/default/production\Accelerometer.production.hex)
  Unused ranges:
-  20C4h - 2FD7h
+  20AAh - 2FA3h
   3000h - FFFFh
   10008h - 1000Dh
 
@@ -546,11 +546,12 @@
 00002070 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00002080 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00002090 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-000020A0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-000020B0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
-000020C0 | H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- -- -- --
+000020A0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- --
 ----------------------------------------------------------
-00002FD0 | -- -- -- -- -- -- -- -- H1 H1 H1 H1 H1 H1 H1 H1
+00002FA0 | -- -- -- -- H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00002FB0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00002FC0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00002FD0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00002FE0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00002FF0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 ----------------------------------------------------------
