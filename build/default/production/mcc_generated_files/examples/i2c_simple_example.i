@@ -11522,5 +11522,11 @@ void I2CSIMPLE_example(void)
     printf(" X: %d\n\r",total_x);
     printf(" Y: %d\n\r",total_y);
     printf(" Z: %d\n\r",total_z);
-# 154 "mcc_generated_files/examples/i2c_simple_example.c"
+# 157 "mcc_generated_files/examples/i2c_simple_example.c"
+    total_x = total_x*0.000732;
+    total_y = total_y*0.000732;
+    total_z = total_z*0.000732;
+    printf(" X_new: %d\n\r",total_x);
+    printf(" Y_new: %d\n\r",total_y);
+    printf(" Z_new: %d\n\r",total_z);
 }

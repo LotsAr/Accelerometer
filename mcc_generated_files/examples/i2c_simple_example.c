@@ -151,6 +151,15 @@ void I2CSIMPLE_example(void)
     
    //printf("%x\n\r", receiveDataFIFO);
    //printf("%x\n\r", receiveData17);
+    
+    /* We zullen nu de bekomen resultaten omzetten naar een waarde die begrepen wordt door de pingpongtoren
+     Voor de 16g-schaal die we gebruiken wordt in de datasheet een schaling van 0.732 mg/LSB gebruikt.*/
+    total_x = total_x*0.000732;
+    total_y = total_y*0.000732;
+    total_z = total_z*0.000732;
+    printf(" X_new: %d\n\r",total_x);
+    printf(" Y_new: %d\n\r",total_y);
+    printf(" Z_new: %d\n\r",total_z);
 }
 /**
  End of File

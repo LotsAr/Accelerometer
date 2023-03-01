@@ -71,7 +71,7 @@ void main(void)
     //INTERRUPT_PeripheralInterruptDisable();
     //i2c_write1ByteRegister(ACC_DEVICE_ADDRESS_2,CTRL_REG6_XL, 00000000); // Writes data to stop the gyroscope (bus, adress, data))
     
-    i2c_write1ByteRegister(ACC_DEVICE_ADDRESS_1,CTRL_REG6_XL, 0B11001000); //accelerometer on
+    i2c_write1ByteRegister(ACC_DEVICE_ADDRESS_1,CTRL_REG6_XL, 0B11001000); //accelerometer on (Staat op 16g!)
     i2c_write1ByteRegister(ACC_DEVICE_ADDRESS_1,FIFO_CTRL, 0xC0); // writes to set continuous measurement on (bus, adress, data))
 
     while (1)

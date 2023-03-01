@@ -1169,11 +1169,32 @@ Version 4.0 HI-TECH Software Intermediate Code
 "141
 [; ;mcc_generated_files/examples/i2c_simple_example.c: 141:     printf(" Z: %d\n\r",total_z);
 [e ( _printf , (. :s 3C -> _total_z `i ]
-"154
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 154: }
+"157
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 157:     total_x = total_x*0.000732;
+[e = _total_x -> * -> -> _total_x `i `d .0.000732 `s ]
+"158
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 158:     total_y = total_y*0.000732;
+[e = _total_y -> * -> -> _total_y `i `d .0.000732 `s ]
+"159
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 159:     total_z = total_z*0.000732;
+[e = _total_z -> * -> -> _total_z `i `d .0.000732 `s ]
+"160
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 160:     printf(" X_new: %d\n\r",total_x);
+[e ( _printf , (. :s 4C -> _total_x `i ]
+"161
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 161:     printf(" Y_new: %d\n\r",total_y);
+[e ( _printf , (. :s 5C -> _total_y `i ]
+"162
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 162:     printf(" Z_new: %d\n\r",total_z);
+[e ( _printf , (. :s 6C -> _total_z `i ]
+"163
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 163: }
 [e :UE 967 ]
 }
 [p f _printf 8388736 ]
+[a 6C 32 90 95 110 101 119 58 32 37 100 10 13 0 ]
+[a 5C 32 89 95 110 101 119 58 32 37 100 10 13 0 ]
+[a 4C 32 88 95 110 101 119 58 32 37 100 10 13 0 ]
 [a 3C 32 90 58 32 37 100 10 13 0 ]
 [a 2C 32 89 58 32 37 100 10 13 0 ]
 [a 1C 32 88 58 32 37 100 10 13 0 ]
