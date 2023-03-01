@@ -1,0 +1,1119 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18345 ]
+[d frameptr 6 ]
+"34 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"53
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"67 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"146 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+[e E7050 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_RCEN 5
+I2C1_TX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_RX_NACK_STOP 12
+I2C1_RX_NACK_RESTART 13
+I2C1_RESET 14
+I2C1_ADDRESS_NACK 15
+]
+"165
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"191
+[e E7068 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"1 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"72 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"53 C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
+[v _main main `(v  1 e 1 0 ]
+"34 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+"51
+[v _i2c_write1ByteRegister i2c_write1ByteRegister `(v  1 e 1 0 ]
+"81
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+"97
+[v _i2c_read1ByteRegister i2c_read1ByteRegister `(uc  1 e 1 0 ]
+"119
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+"151
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+"185
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"66 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"146
+[v _putch putch `(v  1 e 1 0 ]
+"153
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"142 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+[v _rd1RegCompleteHandler@i2c1_master_example$F146 rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler@i2c1_master_example$F157 rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler@i2c1_master_example$F163 wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler@i2c1_master_example$F169 wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler@i2c1_master_example$F180 rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"98 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+[v _I2CSIMPLE_example I2CSIMPLE_example `(v  1 e 1 0 ]
+"167 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+"211
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+"226
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+"247
+[v _I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+"252
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+"264
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+[v i1_I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"274
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+[v i1_I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"284
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"299
+[v _I2C1_SetInterruptHandler I2C1_SetInterruptHandler `(v  1 e 1 0 ]
+"304
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+[v i1_I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 i1_I2C1_SetCallback ]
+"318
+[v _I2C1_MasterIsr I2C1_MasterIsr `(v  1 s 1 I2C1_MasterIsr ]
+"323
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+"335
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E7050  1 s 1 I2C1_DO_IDLE ]
+"342
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E7050  1 s 1 I2C1_DO_SEND_ADR_READ ]
+"349
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E7050  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+"356
+[v _I2C1_DO_TX I2C1_DO_TX `(E7050  1 s 1 I2C1_DO_TX ]
+"380
+[v _I2C1_DO_RX I2C1_DO_RX `(E7050  1 s 1 I2C1_DO_RX ]
+"404
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E7050  1 s 1 I2C1_DO_RCEN ]
+"411
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E7050  1 s 1 I2C1_DO_TX_EMPTY ]
+"451
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E7050  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+"457
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E7050  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+"464
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E7050  1 s 1 I2C1_DO_SEND_RESTART ]
+"470
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E7050  1 s 1 I2C1_DO_SEND_STOP ]
+"476
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E7050  1 s 1 I2C1_DO_RX_ACK ]
+"483
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E7050  1 s 1 I2C1_DO_RX_NACK_STOP ]
+"489
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E7050  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+"495
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E7050  1 s 1 I2C1_DO_RESET ]
+"501
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E7050  1 s 1 I2C1_DO_ADDRESS_NACK ]
+"521
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+"526
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+"544
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+"558
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+"564
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+"569
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+"574
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+"579
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"584
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+"589
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+"594
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+"599
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+"604
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+"610
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+"616
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"627
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"637
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+"642
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+[v i1_I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 i1_I2C1_MasterClearIrq ]
+"647
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+"52 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"75
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"81
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"213 C:\Users\Woensdag\Documents\GitHub\Accelerometer/mcc_generated_files/i2c1_master.h
+[v _MSSP1_InterruptHandler MSSP1_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S1057 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"365 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18345.h
+[u S1062 . 1 `S1057 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1062  1 e 1 @11 ]
+[s S381 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 BCL1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"586
+[u S390 . 1 `S381 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES390  1 e 1 @17 ]
+"1551
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1596
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1635
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S851 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 BCL1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1747
+[u S860 . 1 `S851 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES860  1 e 1 @145 ]
+"1978
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"2294
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2339
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2378
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2933
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2978
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3017
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3100
+[v _RC1REG RC1REG `VEuc  1 e 1 @409 ]
+"3154
+[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
+"3215
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
+"3285
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @412 ]
+"3339
+[v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
+[s S423 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3365
+[u S432 . 1 `S423 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES432  1 e 1 @413 ]
+"3519
+[v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
+[s S402 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3545
+[u S411 . 1 `S402 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES411  1 e 1 @414 ]
+"3699
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @415 ]
+"3945
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3995
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"4034
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"4096
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"4350
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"4858
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+[s S830 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"4880
+[u S839 . 1 `S830 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES839  1 e 1 @532 ]
+"4980
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S629 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"5013
+[s S635 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S640 . 1 `S629 1 . 1 0 `S635 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES640  1 e 1 @533 ]
+"5250
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+[s S797 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"5272
+[u S806 . 1 `S797 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES806  1 e 1 @534 ]
+"6202
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"6247
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"6286
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6752
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"6797
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @781 ]
+"6836
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"7214
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"7264
+[v _INLVLB INLVLB `VEuc  1 e 1 @909 ]
+"7303
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"12137
+[v _PMD0 PMD0 `VEuc  1 e 1 @2321 ]
+"12182
+[v _PMD1 PMD1 `VEuc  1 e 1 @2322 ]
+"12244
+[v _PMD2 PMD2 `VEuc  1 e 1 @2323 ]
+"12284
+[v _PMD3 PMD3 `VEuc  1 e 1 @2324 ]
+"12346
+[v _PMD4 PMD4 `VEuc  1 e 1 @2325 ]
+"12380
+[v _PMD5 PMD5 `VEuc  1 e 1 @2326 ]
+"12489
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2329 ]
+"12629
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2331 ]
+"12726
+[v _OSCEN OSCEN `VEuc  1 e 1 @2333 ]
+"12772
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2334 ]
+"12830
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2335 ]
+"13728
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3616 ]
+"13780
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3617 ]
+"13884
+[v _RXPPS RXPPS `VEuc  1 e 1 @3620 ]
+"14692
+[v _RB7PPS RB7PPS `VEuc  1 e 1 @3743 ]
+"14796
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @3745 ]
+"14848
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @3746 ]
+"55 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+[s S335 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+[u S340 . 1 `S335 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES340  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"82 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+[v _receiveDataxl receiveDataxl `uc  1 e 1 0 ]
+"83
+[v _receiveDataxh receiveDataxh `uc  1 e 1 0 ]
+"84
+[v _receiveDatayl receiveDatayl `uc  1 e 1 0 ]
+"85
+[v _receiveDatayh receiveDatayh `uc  1 e 1 0 ]
+"86
+[v _receiveDatazl receiveDatazl `uc  1 e 1 0 ]
+"87
+[v _receiveDatazh receiveDatazh `uc  1 e 1 0 ]
+"146 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+[v _i2c1_fsmStateTable i2c1_fsmStateTable `DC[16]*.37(E7050  1 e 32 0 ]
+[s S603 . 29 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.4v 1 callbackPayload 6 12 `us 1 time_out 2 18 `us 1 time_out_value 2 20 `uc 1 address 1 22 `*.4uc 1 data_ptr 1 23 `ui 1 data_length 2 24 `E7050 1 state 1 26 `E355 1 error 1 27 `uc 1 addressNackCheck 1 28 :1:0 
+`uc 1 busy 1 28 :1:1 
+`uc 1 inUse 1 28 :1:2 
+`uc 1 bufferFree 1 28 :1:3 
+]
+"165
+[v _I2C1_Status I2C1_Status `S603  1 e 29 0 ]
+"53 C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"82
+} 0
+"51 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+[v _i2c_write1ByteRegister i2c_write1ByteRegister `(v  1 e 1 0 ]
+{
+[v i2c_write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v i2c_write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v i2c_write1ByteRegister@reg reg `uc  1 p 1 12 ]
+[v i2c_write1ByteRegister@data data `uc  1 p 1 13 ]
+[v i2c_write1ByteRegister@address address `uc  1 a 1 15 ]
+"59
+} 0
+"50 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"59
+} 0
+"75
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"81
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"55 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"119
+} 0
+"61 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"73
+} 0
+"167 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"66 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 3 ]
+"172
+} 0
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 3 ]
+"168
+} 0
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 3 ]
+"176
+} 0
+"98 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+[v _I2CSIMPLE_example I2CSIMPLE_example `(v  1 e 1 0 ]
+{
+"122
+[v I2CSIMPLE_example@total_z total_z `s  1 a 2 25 ]
+"121
+[v I2CSIMPLE_example@total_y total_y `s  1 a 2 23 ]
+"120
+[v I2CSIMPLE_example@total_x total_x `s  1 a 2 21 ]
+"154
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.4v  1 a 1 73 ]
+"5
+[v printf@fmt fmt `*.25DCuc  1 p 2 12 ]
+"13
+} 0
+"1390 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+[s S1592 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.1S1592  1 a 1 wreg ]
+"1393
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 70 ]
+"1390
+[v vfprintf@fp fp `*.1S1592  1 a 1 wreg ]
+[v vfprintf@fmt fmt `*.25DCuc  1 p 2 9 ]
+[v vfprintf@ap ap `*.4*.4v  1 p 1 11 ]
+"1395
+"1390
+[v vfprintf@fp fp `*.1S1592  1 a 1 69 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+[s S1592 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.1S1592  1 a 1 wreg ]
+"696
+[v vfpfcnvrt@ll ll `o  1 a 8 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.1S1592  1 a 1 wreg ]
+[v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 60 ]
+[v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 61 ]
+"702
+"692
+[v vfpfcnvrt@fp fp `*.1S1592  1 a 1 8 ]
+"1387
+} 0
+"287
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+[s S1592 _IO_FILE 0 ]
+[v dtoa@fp fp `*.1S1592  1 a 1 wreg ]
+"290
+[v dtoa@n n `o  1 a 8 50 ]
+"289
+[v dtoa@i i `i  1 a 2 58 ]
+[v dtoa@s s `i  1 a 2 48 ]
+[v dtoa@w w `i  1 a 2 46 ]
+[v dtoa@p p `i  1 a 2 44 ]
+"287
+[v dtoa@fp fp `*.1S1592  1 a 1 wreg ]
+[v dtoa@d d `o  1 p 8 30 ]
+"293
+"287
+[v dtoa@fp fp `*.1S1592  1 a 1 43 ]
+"328
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+[s S1592 _IO_FILE 0 ]
+[v pad@fp fp `*.1S1592  1 a 1 wreg ]
+"74
+[v pad@w w `i  1 a 2 27 ]
+[v pad@i i `i  1 a 2 25 ]
+"72
+[v pad@fp fp `*.1S1592  1 a 1 wreg ]
+[v pad@buf buf `*.5uc  1 p 1 21 ]
+[v pad@p p `i  1 p 2 22 ]
+"77
+"72
+[v pad@fp fp `*.1S1592  1 a 1 29 ]
+"95
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+[v strlen@s s `*.5DCuc  1 a 1 wreg ]
+"7
+[v strlen@a a `*.5DCuc  1 a 1 6 ]
+"5
+[v strlen@s s `*.5DCuc  1 a 1 wreg ]
+"7
+[v strlen@s s `*.5DCuc  1 a 1 7 ]
+"12
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+[v fputs@s s `*.5DCuc  1 a 1 wreg ]
+"11
+[v fputs@i i `i  1 a 2 18 ]
+"10
+[v fputs@c c `uc  1 a 1 17 ]
+"8
+[v fputs@s s `*.5DCuc  1 a 1 wreg ]
+[u S1571 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S1574 _IO_FILE 10 `S1571 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
+[v fputs@fp fp `*.1S1574  1 p 1 13 ]
+"13
+[v fputs@s s `*.5DCuc  1 a 1 20 ]
+"19
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 5 ]
+[u S1571 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S1574 _IO_FILE 10 `S1571 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
+[v fputc@fp fp `*.1S1574  1 p 1 7 ]
+"24
+} 0
+"146 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v putch@txData txData `uc  1 a 1 4 ]
+"149
+} 0
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+{
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART_Write@txData txData `uc  1 a 1 3 ]
+"139
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 22 ]
+"4
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 21 ]
+[v ___aomod@counter counter `uc  1 a 1 20 ]
+"7
+[v ___aomod@divisor divisor `o  1 p 8 3 ]
+[v ___aomod@dividend dividend `o  1 p 8 11 ]
+"36
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 22 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 21 ]
+[v ___aodiv@counter counter `uc  1 a 1 20 ]
+"7
+[v ___aodiv@divisor divisor `o  1 p 8 3 ]
+[v ___aodiv@dividend dividend `o  1 p 8 11 ]
+"43
+} 0
+"97 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+[v _i2c_read1ByteRegister i2c_read1ByteRegister `(uc  1 e 1 0 ]
+{
+[v i2c_read1ByteRegister@address address `uc  1 a 1 wreg ]
+"101
+[v i2c_read1ByteRegister@x x `i  1 a 2 16 ]
+"99
+[v i2c_read1ByteRegister@d2 d2 `uc  1 a 1 18 ]
+"100
+[v i2c_read1ByteRegister@e e `E355  1 a 1 15 ]
+"97
+[v i2c_read1ByteRegister@address address `uc  1 a 1 wreg ]
+[v i2c_read1ByteRegister@reg reg `uc  1 p 1 12 ]
+"99
+[v i2c_read1ByteRegister@address address `uc  1 a 1 14 ]
+"116
+} 0
+"274 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.37(E360  1 p 2 8 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.4v  1 p 1 10 ]
+"277
+} 0
+"264
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 wreg ]
+[v I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 wreg ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 3 ]
+"266
+[v I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 6 ]
+"272
+} 0
+"284
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.37(E360  1 p 2 8 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.1v  1 p 1 10 ]
+"287
+} 0
+"304
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E7068  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E7068  1 a 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.37(E360  1 p 2 3 ]
+[v I2C1_SetCallback@ptr ptr `*.4v  1 p 1 5 ]
+"306
+[v I2C1_SetCallback@idx idx `E7068  1 a 1 7 ]
+"316
+} 0
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@returnValue returnValue `E355  1 a 1 7 ]
+"176
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@address address `uc  1 a 1 6 ]
+"209
+} 0
+"299
+[v _I2C1_SetInterruptHandler I2C1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v I2C1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 3 ]
+"302
+} 0
+"544
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"556
+} 0
+"627
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+{
+"630
+} 0
+"252
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+{
+"255
+} 0
+"226
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"228
+[v I2C1_MasterOperation@returnValue returnValue `E355  1 a 1 5 ]
+"226
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"228
+[v I2C1_MasterOperation@read read `a  1 a 1 4 ]
+"245
+} 0
+"589
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+{
+"592
+} 0
+"211
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+{
+"213
+[v I2C1_Close@returnValue returnValue `E355  1 a 1 4 ]
+"224
+} 0
+"637
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"640
+} 0
+"558
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"562
+} 0
+"642
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"645
+} 0
+"52 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"74
+} 0
+"318 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+[v _I2C1_MasterIsr I2C1_MasterIsr `(v  1 s 1 I2C1_MasterIsr ]
+{
+"321
+} 0
+"323
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"332
+} 0
+"642
+[v i1_I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 i1_I2C1_MasterClearIrq ]
+{
+"645
+} 0
+"501
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E7050  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"513
+} 0
+"495
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E7050  1 s 1 I2C1_DO_RESET ]
+{
+"500
+} 0
+"489
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E7050  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"493
+} 0
+"483
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E7050  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"487
+} 0
+"476
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E7050  1 s 1 I2C1_DO_RX_ACK ]
+{
+"480
+} 0
+"470
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E7050  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"474
+} 0
+"464
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E7050  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"468
+} 0
+"457
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E7050  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"461
+} 0
+"451
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E7050  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"455
+} 0
+"404
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E7050  1 s 1 I2C1_DO_RCEN ]
+{
+"409
+} 0
+"380
+[v _I2C1_DO_RX I2C1_DO_RX `(E7050  1 s 1 I2C1_DO_RX ]
+{
+"402
+} 0
+"356
+[v _I2C1_DO_TX I2C1_DO_TX `(E7050  1 s 1 I2C1_DO_TX ]
+{
+"378
+} 0
+"349
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E7050  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"354
+} 0
+"342
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E7050  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"347
+} 0
+"335
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E7050  1 s 1 I2C1_DO_IDLE ]
+{
+"340
+} 0
+"411
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E7050  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"426
+} 0
+"647
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+{
+"650
+} 0
+"599
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"602
+} 0
+"569
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"571
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 0 ]
+"572
+} 0
+"604
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"608
+} 0
+"564
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"567
+} 0
+"610
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"614
+} 0
+"584
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+{
+"587
+} 0
+"526
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+[v I2C1_CallbackReturnReset@funPtr funPtr `*.4v  1 p 1 9 ]
+"529
+} 0
+"521
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"524
+} 0
+"170 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler@i2c1_master_example$F180 rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@i2c1_master_example$F180@ptr ptr `*.4v  1 p 1 9 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler@i2c1_master_example$F163 wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@i2c1_master_example$F163@ptr ptr `*.4v  1 p 1 9 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler@i2c1_master_example$F157 rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@i2c1_master_example$F157@ptr ptr `*.4v  1 p 1 9 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler@i2c1_master_example$F146 rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@i2c1_master_example$F146@ptr ptr `*.4v  1 p 1 9 ]
+"147
+} 0
+"185 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@p p `*.4v  1 p 1 9 ]
+"190
+} 0
+"151
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@p p `*.4v  1 p 1 9 ]
+"156
+} 0
+"119
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@p p `*.4v  1 p 1 9 ]
+"124
+} 0
+"81
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@p p `*.4v  1 p 1 9 ]
+"86
+} 0
+"34
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@p p `*.4v  1 p 1 9 ]
+"39
+} 0
+"163 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+[v _wr2RegCompleteHandler@i2c1_master_example$F169 wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@i2c1_master_example$F169@ptr ptr `*.4v  1 p 1 9 ]
+"168
+} 0
+"274 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+[v i1_I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v i1I2C1_SetDataCompleteCallback@cb cb `*.37(E360  1 p 2 5 ]
+[v i1I2C1_SetDataCompleteCallback@ptr ptr `*.4v  1 p 1 7 ]
+"277
+} 0
+"304
+[v i1_I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 i1_I2C1_SetCallback ]
+{
+[v i1I2C1_SetCallback@idx idx `E7068  1 a 1 wreg ]
+[v i1I2C1_SetCallback@idx idx `E7068  1 a 1 wreg ]
+[v i1I2C1_SetCallback@cb cb `*.37(E360  1 p 2 0 ]
+[v i1I2C1_SetCallback@ptr ptr `*.4v  1 p 1 2 ]
+"306
+[v i1I2C1_SetCallback@idx idx `E7068  1 a 1 4 ]
+"316
+} 0
+"264
+[v i1_I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v i1I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 wreg ]
+[v i1I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 wreg ]
+[v i1I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 0 ]
+"266
+[v i1I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 3 ]
+"272
+} 0
+"594
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"597
+} 0
+"574
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"577
+} 0

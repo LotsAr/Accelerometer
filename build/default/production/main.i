@@ -11503,6 +11503,8 @@ void I2CSIMPLE_example(void);
 
 
 
+
+
 void main(void)
 {
 
@@ -11516,12 +11518,9 @@ void main(void)
 
 
     (INTCONbits.PEIE = 1);
-
-
-
-
-
-
+# 74 "main.c"
+    i2c_write1ByteRegister(0x6B,0x20, 0B11001000);
+    i2c_write1ByteRegister(0x6B,0x2E, 0xC0);
 
     while (1)
     {

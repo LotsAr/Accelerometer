@@ -62,8 +62,31 @@ For this example application to work the following needs to be done:
 #include "../mcc.h"
 #include <stdio.h>
 
-#define EEPROM_DEVICE_ADDRESS 0x1E //bus number ()
+#define MAGN_DEVICE_ADDRESS_1 0x1E //bus number (aflezen op plaatje)
+#define MAGN_DEVICE_ADDRESS_2 0x1C
+#define ACC_DEVICE_ADDRESS_1 0x6B //zordt gebruikt
+#define ACC_DEVICE_ADDRESS_2 0x6A
 
+#define WHO_AM_I_XG			0x0F //Adresses
+
+#define OUT_X_L_XL			0x28
+#define OUT_X_H_XL			0x29
+#define OUT_Y_L_XL			0x2A
+#define OUT_Y_H_XL			0x2B
+#define OUT_Z_L_XL			0x2C
+#define OUT_Z_H_XL			0x2D
+
+#define FIFO_SRC			0x2F
+#define CTRL_REG6_XL		0x20
+
+uint8_t receiveDataxl = 0;
+uint8_t receiveDataxh = 0;
+uint8_t receiveDatayl = 0;
+uint8_t receiveDatayh = 0;
+uint8_t receiveDatazl = 0;
+uint8_t receiveDatazh = 0;
+uint8_t receiveDataFIFO = 15;
+uint8_t receiveData17 = 15;
 /**
  *  \ingroup doc_driver_i2c_example
  *  \brief Call this function to run the example
@@ -77,16 +100,30 @@ void I2CSIMPLE_example(void)
     // Note that the first 2 bytes of the data to be send will be EEPROM high and low Address respectively.
     // Since we are writing to locations starting from 0x0000, the first 2 bytes will be 0x00.
     // The actual data be written starts from 3rd index of the array
-    uint8_t i=0;
-    uint8_t sendData[17] = {0x00,0x00,0xA1,0xA2,0xA3,0xA4,0xA5,0xA6,0xA7,0xA8,0xA9,0xAA,0xAB,0xAC,0xAD,0xAE,0xAF};
-    uint8_t receiveData = 0;
-	
-    receiveData = i2c_read1ByteRegister(EEPROM_DEVICE_ADDRESS, 0x29); //(bus, adress)
+    //uint8_t i=0;
+    //uint8_t sendData[17] = {0x00,0x00,0xA1,0xA2,0xA3,0xA4,0xA5,0xA6,0xA7,0xA8,0xA9,0xAA,0xAB,0xAC,0xAD,0xAE,0xAF};
+    //uint16_t receiveData = 0; //16 want 2 bytes
     
+	//receiveDataFIFO = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, FIFO_SRC);
+    //receiveData17 = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, 0x23);
+
+    //receiveData = i2c_read2ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_X_L_XL); //(bus, adress, size)
+    
+    receiveDataxl = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_X_L_XL);
+    receiveDataxh = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_X_H_XL);
+    
+    receiveDatayl = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_Y_L_XL);
+    receiveDatayh = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_Y_H_XL);
+    
+    receiveDatazl = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_Z_L_XL);
+    receiveDatazh = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_Z_H_XL);
+    int16_t  total_x = (receiveDataxh<<8 )+ receiveDataxl;
+    int16_t  total_y = (receiveDatayh<<8 )+ receiveDatayl;
+    int16_t  total_z = (receiveDatazh<<8 )+ receiveDatazl;
     //i2c_writeNBytes(EEPROM_DEVICE_ADDRESS,sendData,sizeof(sendData)); // Writes sendData[] to EEPROM
     // Sent data is temporarily stored in the on-chip page buffer, and will be written into memory once the master has transmitted a Stop condition.
     // The delay is to make sure EEPROM gets enough time to write from on-chip page buffer to memory.
-    __delay_ms(10);
+    __delay_ms(100);
     
     //DELAY_milliseconds(10); 
 	
@@ -99,8 +136,21 @@ void I2CSIMPLE_example(void)
 
     //Once the eeprom address is set, we can simply start reading N number of bytes starting from that location.
     //i2c_readNBytes(EEPROM_DEVICE_ADDRESS,receiveData,sizeof(receiveData));
+    printf(" X: %d\n\r",total_x);
+    printf(" Y: %d\n\r",total_y);
+    printf(" Z: %d\n\r",total_z);
     
-    printf("%x\n\r", receiveData);
+    //printf("X_high %x\n\r", receiveDataxh);
+    //printf("X_low %x\n\r", receiveDataxl);
+    
+    //printf("Y_high %x\n\r", receiveDatayh);
+    //printf("Y_low %x\n\r", receiveDatayl);
+   
+    //printf("Z_high %x\n\r", receiveDatazh);
+    //printf("Z_low %x\n\r", receiveDatazl);
+    
+   //printf("%x\n\r", receiveDataFIFO);
+   //printf("%x\n\r", receiveData17);
 }
 /**
  End of File

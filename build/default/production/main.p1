@@ -15,6 +15,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "365
 [; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18345.h: 365: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
 [v _INTCONbits `VS30 ~T0 @X0 0 e@11 ]
+"39 ./mcc_generated_files/drivers/i2c_simple_master.h
+[; ;./mcc_generated_files/drivers/i2c_simple_master.h: 39: void i2c_write1ByteRegister(i2c1_address_t address, uint8_t reg, uint8_t data);
+[v _i2c_write1ByteRegister `(v ~T0 @X0 0 ef3`uc`uc`uc ]
 "33 ./mcc_generated_files/examples/i2c_simple_example.h
 [; ;./mcc_generated_files/examples/i2c_simple_example.h: 33: void I2CSIMPLE_example(void);
 [v _I2CSIMPLE_example `(v ~T0 @X0 0 ef ]
@@ -1084,42 +1087,48 @@ Version 4.0 HI-TECH Software Intermediate Code
 "213 ./mcc_generated_files/drivers/.././i2c1_master.h
 [v _MSSP1_InterruptHandler `*F7047 ~T0 @X0 1 e ]
 [v $root$_main `(v ~T0 @X0 0 e ]
-"51 main.c
-[; ;main.c: 51: void main(void)
+"53 main.c
+[; ;main.c: 53: void main(void)
 [v _main `(v ~T0 @X0 1 ef ]
-"52
-[; ;main.c: 52: {
+"54
+[; ;main.c: 54: {
 {
 [e :U _main ]
 [f ]
-"54
-[; ;main.c: 54:     SYSTEM_Initialize();
+"56
+[; ;main.c: 56:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"60
-[; ;main.c: 60:     (INTCONbits.GIE = 1);
+"62
+[; ;main.c: 62:     (INTCONbits.GIE = 1);
 [e = . . _INTCONbits 0 3 -> -> 1 `i `uc ]
-"63
-[; ;main.c: 63:     (INTCONbits.PEIE = 1);
+"65
+[; ;main.c: 65:     (INTCONbits.PEIE = 1);
 [e = . . _INTCONbits 0 2 -> -> 1 `i `uc ]
-"71
-[; ;main.c: 71:     while (1)
-[e :U 969 ]
-"72
-[; ;main.c: 72:     {
-{
-"73
-[; ;main.c: 73:         I2CSIMPLE_example();
-[e ( _I2CSIMPLE_example ..  ]
 "74
-[; ;main.c: 74:         _delay((unsigned long)((1000)*(32000000/4000.0)));
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+[; ;main.c: 74:     i2c_write1ByteRegister(0x6B,0x20, 0B11001000);
+[e ( _i2c_write1ByteRegister (3 , , -> -> 107 `i `uc -> -> 32 `i `uc -> -> 200 `i `uc ]
 "75
-[; ;main.c: 75:     }
+[; ;main.c: 75:     i2c_write1ByteRegister(0x6B,0x2E, 0xC0);
+[e ( _i2c_write1ByteRegister (3 , , -> -> 107 `i `uc -> -> 46 `i `uc -> -> 192 `i `uc ]
+"77
+[; ;main.c: 77:     while (1)
+[e :U 969 ]
+"78
+[; ;main.c: 78:     {
+{
+"79
+[; ;main.c: 79:         I2CSIMPLE_example();
+[e ( _I2CSIMPLE_example ..  ]
+"80
+[; ;main.c: 80:         _delay((unsigned long)((1000)*(32000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"81
+[; ;main.c: 81:     }
 }
 [e :U 968 ]
 [e $U 969  ]
 [e :U 970 ]
-"76
-[; ;main.c: 76: }
+"82
+[; ;main.c: 82: }
 [e :UE 967 ]
 }

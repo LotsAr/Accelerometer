@@ -11490,22 +11490,37 @@ void WDT_Initialize(void);
 # 110 "mcc_generated_files/examples/../mcc.h"
 void PMD_Initialize(void);
 # 62 "mcc_generated_files/examples/i2c_simple_example.c" 2
-# 75 "mcc_generated_files/examples/i2c_simple_example.c"
+# 82 "mcc_generated_files/examples/i2c_simple_example.c"
+uint8_t receiveDataxl = 0;
+uint8_t receiveDataxh = 0;
+uint8_t receiveDatayl = 0;
+uint8_t receiveDatayh = 0;
+uint8_t receiveDatazl = 0;
+uint8_t receiveDatazh = 0;
+uint8_t receiveDataFIFO = 15;
+uint8_t receiveData17 = 15;
+# 98 "mcc_generated_files/examples/i2c_simple_example.c"
 void I2CSIMPLE_example(void)
 {
+# 112 "mcc_generated_files/examples/i2c_simple_example.c"
+    receiveDataxl = i2c_read1ByteRegister(0x6B, 0x28);
+    receiveDataxh = i2c_read1ByteRegister(0x6B, 0x29);
+
+    receiveDatayl = i2c_read1ByteRegister(0x6B, 0x2A);
+    receiveDatayh = i2c_read1ByteRegister(0x6B, 0x2B);
+
+    receiveDatazl = i2c_read1ByteRegister(0x6B, 0x2C);
+    receiveDatazh = i2c_read1ByteRegister(0x6B, 0x2D);
+    int16_t total_x = (receiveDataxh<<8 )+ receiveDataxl;
+    int16_t total_y = (receiveDatayh<<8 )+ receiveDatayl;
+    int16_t total_z = (receiveDatazh<<8 )+ receiveDatazl;
 
 
 
-    uint8_t i=0;
-    uint8_t sendData[17] = {0x00,0x00,0xA1,0xA2,0xA3,0xA4,0xA5,0xA6,0xA7,0xA8,0xA9,0xAA,0xAB,0xAC,0xAD,0xAE,0xAF};
-    uint8_t receiveData = 0;
-
-    receiveData = i2c_read1ByteRegister(0x1E, 0x29);
-
-
-
-
-    _delay((unsigned long)((10)*(32000000/4000.0)));
-# 103 "mcc_generated_files/examples/i2c_simple_example.c"
-    printf("%x\n\r", receiveData);
+    _delay((unsigned long)((100)*(32000000/4000.0)));
+# 139 "mcc_generated_files/examples/i2c_simple_example.c"
+    printf(" X: %d\n\r",total_x);
+    printf(" Y: %d\n\r",total_y);
+    printf(" Z: %d\n\r",total_z);
+# 154 "mcc_generated_files/examples/i2c_simple_example.c"
 }

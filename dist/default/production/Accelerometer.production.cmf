@@ -1,0 +1,1765 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\Accelerometer.production.o
+cinit CODE 0 2A 2A 1E 2 1
+idloc IDLOC 5 8000 8000 4 2 1
+text1 CODE 0 789 789 35 2 1
+text2 CODE 0 DF4 DF4 13 2 1
+text3 CODE 0 C86 C86 4 2 1
+text4 CODE 0 CE3 CE3 8 2 1
+text5 CODE 0 71A 71A 38 2 1
+text6 CODE 0 D21 D21 9 2 1
+text7 CODE 0 D18 D18 9 2 1
+text8 CODE 0 F01 F01 26 2 1
+text9 CODE 0 D0F D0F 9 2 1
+text10 CODE 0 D06 D06 9 2 1
+text11 CODE 0 CFD CFD 9 2 1
+text12 CODE 0 49B 49B AD 2 1
+text13 CODE 0 E07 E07 15 2 1
+text14 CODE 0 7BE 7BE 34 2 1
+text15 CODE 0 2B9 2B9 F5 2 1
+text16 CODE 0 48 48 16C 2 1
+text17 CODE 0 548 548 56 2 1
+text18 CODE 0 E63 E63 1B 2 1
+text19 CODE 0 F4E F4E 29 2 1
+text20 CODE 0 6D7 6D7 43 2 1
+text21 CODE 0 CD4 CD4 7 2 1
+text22 CODE 0 D2A D2A A 2 1
+text23 CODE 0 E7E E7E 1C 2 1
+text24 CODE 0 3AE 3AE ED 2 1
+text25 CODE 0 1B4 1B4 105 2 1
+text26 CODE 0 5F3 5F3 52 2 1
+text27 CODE 0 7F2 7F2 E 2 1
+text28 CODE 0 E1C E1C 17 2 1
+text29 CODE 0 D4E D4E E 2 1
+text30 CODE 0 F27 F27 27 2 1
+text31 CODE 0 645 645 4C 2 1
+text32 CODE 0 CF4 CF4 9 2 1
+text33 CODE 0 D41 D41 D 2 1
+text34 CODE 0 C77 C77 3 2 1
+text35 CODE 0 CBC CBC 5 2 1
+text36 CODE 0 E9A E9A 20 2 1
+text37 CODE 0 C74 C74 3 2 1
+text38 CODE 0 EBA EBA 21 2 1
+text39 CODE 0 C71 C71 3 2 1
+text40 CODE 0 C6E C6E 3 2 1
+text41 CODE 0 C6B C6B 3 2 1
+text43 CODE 0 C82 C82 4 2 1
+text44 CODE 0 FA3 FA3 2E 2 1
+text45 CODE 0 C68 C68 3 2 1
+text46 CODE 0 F77 F77 2C 2 1
+text47 CODE 0 CB7 CB7 5 2 1
+text48 CODE 0 CB2 CB2 5 2 1
+text49 CODE 0 CAD CAD 5 2 1
+text50 CODE 0 CA8 CA8 5 2 1
+text51 CODE 0 CA3 CA3 5 2 1
+text52 CODE 0 C9E C9E 5 2 1
+text53 CODE 0 C99 C99 5 2 1
+text54 CODE 0 C94 C94 5 2 1
+text55 CODE 0 CCD CCD 7 2 1
+text56 CODE 0 691 691 46 2 1
+text57 CODE 0 59E 59E 55 2 1
+text58 CODE 0 CDB CDB 8 2 1
+text59 CODE 0 CEB CEB 9 2 1
+text60 CODE 0 C8F C8F 5 2 1
+text61 CODE 0 FD1 FD1 2F 2 1
+text62 CODE 0 C65 C65 3 2 1
+text63 CODE 0 CC1 CC1 6 2 1
+text64 CODE 0 C8A C8A 5 2 1
+text65 CODE 0 C7E C7E 4 2 1
+text66 CODE 0 C62 C62 3 2 1
+text67 CODE 0 C7A C7A 4 2 1
+text68 CODE 0 C5F C5F 3 2 1
+text69 CODE 0 2 2 2 2 1
+text70 CODE 0 C57 C57 2 2 1
+text71 CODE 0 E4B E4B 18 2 1
+text72 CODE 0 DE3 DE3 11 2 1
+text73 CODE 0 DD2 DD2 11 2 1
+text74 CODE 0 DC1 DC1 11 2 1
+text75 CODE 0 E33 E33 18 2 1
+text76 CODE 0 DB0 DB0 11 2 1
+text77 CODE 0 D9F D9F 11 2 1
+text78 CODE 0 D8E D8E 11 2 1
+text79 CODE 0 D7D D7D 11 2 1
+text80 CODE 0 D6C D6C 11 2 1
+text81 CODE 0 D34 D34 D 2 1
+text82 CODE 0 EDB EDB 26 2 1
+text83 CODE 0 D5C D5C 10 2 1
+text84 CODE 0 C5C C5C 3 2 1
+text85 CODE 0 C59 C59 3 2 1
+nvBANK1 BANK1 1 E9 E9 6 1 1
+idataCOMMON CODE 0 C56 C56 1 2 1
+maintext CODE 0 752 752 37 2 1
+cstackCOMMON COMMON 1 70 70 D 1 1
+cstackBANK0 BANK0 1 20 20 4A 1 1
+cstackBANK1 BANK1 1 CC CC 1D 1 1
+stringtext1 STRCODE 0 1000 1000 20 2 1
+stringtext2 STRCODE 0 1020 1020 9 2 1
+stringtext3 STRCODE 0 1029 1029 9 2 1
+stringtext4 STRCODE 0 1032 1032 9 2 1
+intentry CODE 0 4 4 24 2 1
+bssBANK0 BANK0 1 6A 6A 2 1 1
+bssBANK1 BANK1 1 A0 A0 2C 1 1
+bssBANK2 BANK2 1 120 120 20 1 1
+idataBANK0 CODE 0 C55 C55 1 2 1
+dataBANK0 BANK0 1 6C 6C 1 1 1
+dataCOMMON COMMON 1 7D 7D 1 1 1
+clrtext CODE 0 CC7 CC7 6 2 1
+config CONFIG 4 8007 8007 4 2 1
+$C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+idloc IDLOC 5 8000 8000 4 2 1
+reset_vec CODE 0 0 0 2 2 1
+end_init CODE 0 28 28 2 2 1
+config CONFIG 4 8007 8007 4 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 6D-6F 1
+RAM EF-EF 1
+RAM 140-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK0 6D-6F 1
+BANK1 EF-EF 1
+BANK2 140-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 800-C54 2
+CONST 103B-1FFF 2
+ENTRY 800-C54 2
+ENTRY 103B-1FFF 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+CODE 800-C54 2
+CODE 103B-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+EEDATA F000-F0FF 2
+STRCODE 800-C54 2
+STRCODE 103B-1FFF 2
+STRING 800-C54 2
+STRING 103B-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Accelerometer.production.o
+2A cinit CODE >6229:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+2A cinit CODE >6232:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+2A cinit CODE >6305:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+2D cinit CODE >6306:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+2E cinit CODE >6310:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+31 cinit CODE >6311:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+32 cinit CODE >6328:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+33 cinit CODE >6329:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+34 cinit CODE >6333:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+35 cinit CODE >6334:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+36 cinit CODE >6335:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+37 cinit CODE >6336:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+38 cinit CODE >6337:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+39 cinit CODE >6338:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+3C cinit CODE >6342:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+3D cinit CODE >6343:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+3E cinit CODE >6344:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+3F cinit CODE >6345:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+40 cinit CODE >6346:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+41 cinit CODE >6347:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+44 cinit CODE >6353:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+44 cinit CODE >6355:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+45 cinit CODE >6356:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+46 cinit CODE >6357:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+4 intentry CODE >52:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
+A intentry CODE >57:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
+14 intentry CODE >59:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
+1A intentry CODE >60:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
+1B intentry CODE >61:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
+26 intentry CODE >68:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
+26 intentry CODE >74:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
+C59 text85 CODE >574:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C59 text85 CODE >576:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C5B text85 CODE >577:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C5C text84 CODE >594:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C5C text84 CODE >596:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C5E text84 CODE >597:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D5C text83 CODE >264:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D5D text83 CODE >266:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D62 text83 CODE >268:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D66 text83 CODE >269:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D6A text83 CODE >270:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D6B text83 CODE >272:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EDB text82 CODE >304:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EDC text82 CODE >306:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EE2 text82 CODE >308:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EEA text82 CODE >309:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EF2 text82 CODE >310:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EF3 text82 CODE >313:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EFB text82 CODE >314:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F00 text82 CODE >316:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D34 text81 CODE >274:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D34 text81 CODE >276:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D40 text81 CODE >277:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D6C text80 CODE >163:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+D6C text80 CODE >165:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+D74 text80 CODE >166:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+D7B text80 CODE >167:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+D7C text80 CODE >168:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+D7D text79 CODE >34:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D7D text79 CODE >36:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D85 text79 CODE >37:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D8C text79 CODE >38:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D8D text79 CODE >39:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D8E text78 CODE >81:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D8E text78 CODE >83:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D96 text78 CODE >84:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D9D text78 CODE >85:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D9E text78 CODE >86:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D9F text77 CODE >119:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+D9F text77 CODE >121:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+DA7 text77 CODE >122:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+DAE text77 CODE >123:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+DAF text77 CODE >124:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+DB0 text76 CODE >151:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+DB0 text76 CODE >153:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+DB8 text76 CODE >154:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+DBF text76 CODE >155:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+DC0 text76 CODE >156:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+E33 text75 CODE >185:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+E33 text75 CODE >187:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+E42 text75 CODE >188:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+E49 text75 CODE >189:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+E4A text75 CODE >190:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+DC1 text74 CODE >142:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DC1 text74 CODE >144:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DC9 text74 CODE >145:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DD0 text74 CODE >146:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DD1 text74 CODE >147:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DD2 text73 CODE >149:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DD2 text73 CODE >151:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DDA text73 CODE >152:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DE1 text73 CODE >153:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DE2 text73 CODE >154:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DE3 text72 CODE >156:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DE3 text72 CODE >158:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DEB text72 CODE >159:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DF2 text72 CODE >160:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+DF3 text72 CODE >161:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+E4B text71 CODE >170:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+E4B text71 CODE >172:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+E5A text71 CODE >173:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+E61 text71 CODE >174:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+E62 text71 CODE >175:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c1_master_example.c
+C57 text70 CODE >521:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C57 text70 CODE >523:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C58 text70 CODE >524:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+2 text69 CODE >526:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+2 text69 CODE >528:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+3 text69 CODE >529:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C5F text68 CODE >584:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C5F text68 CODE >586:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C61 text68 CODE >587:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C7A text67 CODE >610:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C7A text67 CODE >612:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C7C text67 CODE >613:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C7D text67 CODE >614:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C62 text66 CODE >564:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C62 text66 CODE >566:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C64 text66 CODE >567:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C7E text65 CODE >604:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C7E text65 CODE >606:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C80 text65 CODE >607:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C81 text65 CODE >608:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C8A text64 CODE >569:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C8B text64 CODE >571:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C8E text64 CODE >572:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CC1 text63 CODE >599:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CC1 text63 CODE >601:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CC6 text63 CODE >602:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C65 text62 CODE >647:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C65 text62 CODE >649:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C67 text62 CODE >650:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FD1 text61 CODE >411:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FD1 text61 CODE >413:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FD3 text61 CODE >414:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FD4 text61 CODE >418:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FD8 text61 CODE >420:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FDB text61 CODE >421:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FDD text61 CODE >424:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FE1 text61 CODE >425:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FEE text61 CODE >425:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FF3 text61 CODE >425:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FF6 text61 CODE >425:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FF9 text61 CODE >425:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FFC text61 CODE >425:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FFF text61 CODE >426:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C8F text60 CODE >335:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C8F text60 CODE >337:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C91 text60 CODE >338:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C92 text60 CODE >339:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C93 text60 CODE >340:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CEB text59 CODE >342:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CEB text59 CODE >344:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CED text59 CODE >345:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CF2 text59 CODE >346:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CF3 text59 CODE >347:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CDB text58 CODE >349:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CDB text58 CODE >351:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CDD text58 CODE >352:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CE1 text58 CODE >353:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CE2 text58 CODE >354:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+59E text57 CODE >356:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+59E text57 CODE >358:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5A2 text57 CODE >358:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5A7 text57 CODE >363:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5AB text57 CODE >365:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5AF text57 CODE >369:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5B3 text57 CODE >370:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5C5 text57 CODE >370:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5CA text57 CODE >370:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5CD text57 CODE >370:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5D0 text57 CODE >370:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5D3 text57 CODE >370:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5D6 text57 CODE >372:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5D6 text57 CODE >374:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5D8 text57 CODE >375:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5E4 text57 CODE >376:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5F2 text57 CODE >378:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+691 text56 CODE >380:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+691 text56 CODE >382:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+69F text56 CODE >383:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6A9 text56 CODE >385:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6AC text56 CODE >386:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6AE text56 CODE >388:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6AE text56 CODE >390:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6AF text56 CODE >391:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6B0 text56 CODE >395:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6B4 text56 CODE >399:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6B8 text56 CODE >400:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6C5 text56 CODE >400:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6CA text56 CODE >400:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6CD text56 CODE >400:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6D0 text56 CODE >400:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6D3 text56 CODE >400:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+6D6 text56 CODE >402:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CCD text55 CODE >404:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CCD text55 CODE >406:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CCF text55 CODE >407:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CD2 text55 CODE >408:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CD3 text55 CODE >409:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C94 text54 CODE >451:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C94 text54 CODE >453:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C97 text54 CODE >454:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C98 text54 CODE >455:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C99 text53 CODE >457:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C99 text53 CODE >459:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C9C text53 CODE >460:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C9D text53 CODE >461:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C9E text52 CODE >464:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C9E text52 CODE >466:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CA1 text52 CODE >467:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CA2 text52 CODE >468:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CA3 text51 CODE >470:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CA3 text51 CODE >472:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CA6 text51 CODE >473:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CA7 text51 CODE >474:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CA8 text50 CODE >476:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CA8 text50 CODE >478:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CAB text50 CODE >479:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CAC text50 CODE >480:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CAD text49 CODE >483:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CAD text49 CODE >485:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CB0 text49 CODE >486:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CB1 text49 CODE >487:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CB2 text48 CODE >489:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CB2 text48 CODE >491:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CB5 text48 CODE >492:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CB6 text48 CODE >493:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CB7 text47 CODE >495:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CB7 text47 CODE >497:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CB9 text47 CODE >498:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CBA text47 CODE >499:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CBB text47 CODE >500:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F77 text46 CODE >501:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F77 text46 CODE >503:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F79 text46 CODE >504:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F7D text46 CODE >505:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F7E text46 CODE >509:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F82 text46 CODE >511:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F86 text46 CODE >512:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F97 text46 CODE >512:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F9C text46 CODE >512:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F9F text46 CODE >512:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FA2 text46 CODE >513:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C68 text45 CODE >642:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C68 text45 CODE >644:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C6A text45 CODE >645:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FA3 text44 CODE >323:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FA3 text44 CODE >325:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FA6 text44 CODE >327:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FAF text44 CODE >327:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FB3 text44 CODE >329:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FB9 text44 CODE >331:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+FD0 text44 CODE >332:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C82 text43 CODE >318:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C82 text43 CODE >320:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C85 text43 CODE >321:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C6B text41 CODE >642:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C6B text41 CODE >644:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C6D text41 CODE >645:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C6E text40 CODE >558:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C6E text40 CODE >561:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C70 text40 CODE >562:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C71 text39 CODE >637:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C71 text39 CODE >639:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C73 text39 CODE >640:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EBA text38 CODE >211:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EBA text38 CODE >213:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EBD text38 CODE >214:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EC2 text38 CODE >216:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EC3 text38 CODE >217:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EC9 text38 CODE >218:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+ECC text38 CODE >219:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+ECF text38 CODE >220:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+ED2 text38 CODE >221:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+ED8 text38 CODE >223:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EDA text38 CODE >224:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C74 text37 CODE >589:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C74 text37 CODE >591:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C76 text37 CODE >592:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+E9A text36 CODE >226:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+E9C text36 CODE >228:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+E9E text36 CODE >229:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EA3 text36 CODE >231:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EA4 text36 CODE >232:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EA6 text36 CODE >234:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EAB text36 CODE >236:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EAE text36 CODE >237:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EAF text36 CODE >240:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EB4 text36 CODE >242:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EB7 text36 CODE >244:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+EB9 text36 CODE >245:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CBC text35 CODE >252:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CBC text35 CODE >254:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CC0 text35 CODE >255:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C77 text34 CODE >627:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C77 text34 CODE >629:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+C79 text34 CODE >630:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D41 text33 CODE >544:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D41 text33 CODE >546:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D46 text33 CODE >548:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D47 text33 CODE >549:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D49 text33 CODE >550:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D4A text33 CODE >551:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D4C text33 CODE >552:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D4D text33 CODE >556:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CF4 text32 CODE >299:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CF4 text32 CODE >301:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+CFC text32 CODE >302:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+645 text31 CODE >176:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+647 text31 CODE >178:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+649 text31 CODE >180:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+64E text31 CODE >182:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+654 text31 CODE >183:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+655 text31 CODE >184:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+656 text31 CODE >185:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+657 text31 CODE >186:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+65D text31 CODE >187:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+661 text31 CODE >188:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+662 text31 CODE >191:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+666 text31 CODE >192:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+667 text31 CODE >193:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+66B text31 CODE >194:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+66C text31 CODE >195:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+670 text31 CODE >196:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+671 text31 CODE >197:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+675 text31 CODE >198:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+676 text31 CODE >199:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+67A text31 CODE >200:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+67B text31 CODE >202:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+683 text31 CODE >203:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+686 text31 CODE >204:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+689 text31 CODE >205:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+68C text31 CODE >206:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+68E text31 CODE >208:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+690 text31 CODE >209:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F27 text30 CODE >304:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F29 text30 CODE >306:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F2F text30 CODE >308:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F37 text30 CODE >309:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F3F text30 CODE >310:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F40 text30 CODE >313:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F48 text30 CODE >314:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+F4D text30 CODE >316:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D4E text29 CODE >284:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D4E text29 CODE >286:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D5B text29 CODE >287:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+E1C text28 CODE >264:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+E1E text28 CODE >266:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+E23 text28 CODE >268:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+E29 text28 CODE >269:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+E31 text28 CODE >270:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+E32 text28 CODE >272:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+7F2 text27 CODE >274:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+7F2 text27 CODE >276:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+7FF text27 CODE >277:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+5F3 text26 CODE >97:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+5F5 text26 CODE >99:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+5F9 text26 CODE >103:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+5FD text26 CODE >105:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+603 text26 CODE >105:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+607 text26 CODE >106:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+613 text26 CODE >107:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+61C text26 CODE >108:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+624 text26 CODE >109:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+627 text26 CODE >110:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+633 text26 CODE >111:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+639 text26 CODE >112:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+643 text26 CODE >115:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+644 text26 CODE >116:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+1B4 text25 CODE >7:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1B4 text25 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1B6 text25 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1C0 text25 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1CA text25 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1CD text25 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1D0 text25 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1D3 text25 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1D6 text25 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1D9 text25 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1DC text25 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1DF text25 CODE >18:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1E2 text25 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1ED text25 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1F7 text25 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1FA text25 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+1FD text25 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+200 text25 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+203 text25 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+206 text25 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+209 text25 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+20C text25 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+211 text25 CODE >24:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+21C text25 CODE >25:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+224 text25 CODE >25:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+228 text25 CODE >26:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+22A text25 CODE >27:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+22B text25 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+233 text25 CODE >29:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+237 text25 CODE >27:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+23B text25 CODE >32:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+243 text25 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+245 text25 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+249 text25 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+24D text25 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+251 text25 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+255 text25 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+259 text25 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+25D text25 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+261 text25 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+265 text25 CODE >34:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+275 text25 CODE >35:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+276 text25 CODE >37:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+27E text25 CODE >38:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+284 text25 CODE >40:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+289 text25 CODE >41:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+292 text25 CODE >41:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+295 text25 CODE >41:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+298 text25 CODE >41:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+29B text25 CODE >41:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+29E text25 CODE >41:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+2A1 text25 CODE >41:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+2A4 text25 CODE >41:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+2A7 text25 CODE >42:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+2B8 text25 CODE >43:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aodiv.c
+3AE text24 CODE >7:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3AE text24 CODE >14:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3B0 text24 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3BA text24 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3C4 text24 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3C7 text24 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3CA text24 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3CD text24 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3D0 text24 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3D3 text24 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3D6 text24 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3D9 text24 CODE >17:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3DC text24 CODE >19:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3E7 text24 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3F1 text24 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3F4 text24 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3F7 text24 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3FA text24 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+3FD text24 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+400 text24 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+403 text24 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+406 text24 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+40F text24 CODE >21:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+413 text24 CODE >22:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+415 text24 CODE >23:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+416 text24 CODE >24:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+41E text24 CODE >25:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+422 text24 CODE >23:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+426 text24 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+428 text24 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+42C text24 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+430 text24 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+434 text24 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+438 text24 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+43C text24 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+440 text24 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+444 text24 CODE >28:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+448 text24 CODE >29:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+458 text24 CODE >30:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+460 text24 CODE >31:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+466 text24 CODE >33:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+46B text24 CODE >34:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+474 text24 CODE >34:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+477 text24 CODE >34:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+47A text24 CODE >34:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+47D text24 CODE >34:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+480 text24 CODE >34:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+483 text24 CODE >34:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+486 text24 CODE >34:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+489 text24 CODE >35:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+49A text24 CODE >36:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\aomod.c
+E7E text23 CODE >1:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\abs.c
+E7E text23 CODE >3:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\abs.c
+E84 text23 CODE >3:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\abs.c
+E88 text23 CODE >3:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\abs.c
+E92 text23 CODE >3:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\abs.c
+E99 text23 CODE >4:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\abs.c
+D2A text22 CODE >132:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D2C text22 CODE >134:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D2C text22 CODE >136:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D30 text22 CODE >138:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D33 text22 CODE >139:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+CD4 text21 CODE >146:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+CD6 text21 CODE >148:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+CDA text21 CODE >149:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+6D7 text20 CODE >8:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+6D7 text20 CODE >12:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+6E2 text20 CODE >13:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+6E6 text20 CODE >14:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+6E7 text20 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+707 text20 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+70B text20 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+70F text20 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+717 text20 CODE >20:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+719 text20 CODE >24:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputc.c
+F4E text19 CODE >8:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
+F50 text19 CODE >13:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
+F52 text19 CODE >14:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
+F53 text19 CODE >15:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
+F61 text19 CODE >16:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
+F66 text19 CODE >14:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
+F76 text19 CODE >19:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\nf_fputs.c
+E63 text18 CODE >5:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+E65 text18 CODE >7:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+E69 text18 CODE >8:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+E6A text18 CODE >9:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+E6E text18 CODE >8:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+E77 text18 CODE >11:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+E7D text18 CODE >12:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
+548 text17 CODE >72:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+54A text17 CODE >77:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+54E text17 CODE >78:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+556 text17 CODE >82:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+562 text17 CODE >83:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+564 text17 CODE >84:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+565 text17 CODE >85:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+571 text17 CODE >86:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+576 text17 CODE >84:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+57C text17 CODE >84:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+580 text17 CODE >84:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+584 text17 CODE >90:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+589 text17 CODE >91:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+591 text17 CODE >92:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+591 text17 CODE >94:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+59D text17 CODE >95:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+48 text16 CODE >287:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+4A text16 CODE >293:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+5A text16 CODE >294:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+6D text16 CODE >295:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+73 text16 CODE >296:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+7C text16 CODE >296:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+7F text16 CODE >296:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+82 text16 CODE >296:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+85 text16 CODE >296:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+88 text16 CODE >296:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+8B text16 CODE >296:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+8E text16 CODE >296:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+91 text16 CODE >297:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+91 text16 CODE >300:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+96 text16 CODE >301:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+9B text16 CODE >302:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+9B text16 CODE >303:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+A2 text16 CODE >303:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+A7 text16 CODE >303:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+B9 text16 CODE >304:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+C1 text16 CODE >305:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+CB text16 CODE >306:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+CF text16 CODE >307:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+CF text16 CODE >310:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+D3 text16 CODE >311:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+D5 text16 CODE >312:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+D6 text16 CODE >313:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+DB text16 CODE >314:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+10A text16 CODE >315:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+10E text16 CODE >316:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+112 text16 CODE >317:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+13F text16 CODE >312:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+13F text16 CODE >318:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+145 text16 CODE >312:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+149 text16 CODE >312:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+156 text16 CODE >312:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+15F text16 CODE >312:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+163 text16 CODE >312:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+16D text16 CODE >312:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+171 text16 CODE >312:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+17A text16 CODE >321:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+185 text16 CODE >322:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+189 text16 CODE >323:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+1A1 text16 CODE >327:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+1B3 text16 CODE >328:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+2B9 text15 CODE >692:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+2BB text15 CODE >702:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+2CD text15 CODE >703:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+2D3 text15 CODE >703:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+2D5 text15 CODE >705:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+2DB text15 CODE >706:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+2E0 text15 CODE >847:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+303 text15 CODE >849:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+309 text15 CODE >849:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+30B text15 CODE >850:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+327 text15 CODE >852:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+351 text15 CODE >1372:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+362 text15 CODE >1373:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+368 text15 CODE >1373:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+36A text15 CODE >1374:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+377 text15 CODE >1375:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+37D text15 CODE >1379:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+383 text15 CODE >1379:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+385 text15 CODE >1380:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+388 text15 CODE >1384:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+3A3 text15 CODE >1385:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+3AA text15 CODE >1385:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+3AD text15 CODE >1387:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+7BE text14 CODE >1390:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+7C0 text14 CODE >1395:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+7C8 text14 CODE >1396:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+7CB text14 CODE >1397:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+7CC text14 CODE >1398:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+7E2 text14 CODE >1397:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+7EC text14 CODE >1400:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+7F1 text14 CODE >1404:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
+E07 text13 CODE >5:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\printf.c
+E07 text13 CODE >9:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\printf.c
+E0C text13 CODE >10:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\printf.c
+E1B text13 CODE >13:C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\printf.c
+49B text12 CODE >98:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+49B text12 CODE >112:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+4A9 text12 CODE >113:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+4B6 text12 CODE >115:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+4C3 text12 CODE >116:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+4D0 text12 CODE >118:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+4DD text12 CODE >119:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+4EA text12 CODE >120:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+4F9 text12 CODE >121:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+508 text12 CODE >122:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+517 text12 CODE >126:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+523 text12 CODE >139:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+52F text12 CODE >140:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+53B text12 CODE >141:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+547 text12 CODE >154:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
+CFD text11 CODE >174:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+CFD text11 CODE >175:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D05 text11 CODE >176:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D06 text10 CODE >166:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D06 text10 CODE >167:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D0E text10 CODE >168:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D0F text9 CODE >170:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D0F text9 CODE >171:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D17 text9 CODE >172:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F01 text8 CODE >66:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F01 text8 CODE >71:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F04 text8 CODE >74:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F06 text8 CODE >77:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F08 text8 CODE >80:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F0A text8 CODE >83:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F0C text8 CODE >86:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F14 text8 CODE >87:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F1C text8 CODE >88:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F24 text8 CODE >90:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+F26 text8 CODE >92:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
+D18 text7 CODE >167:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D18 text7 CODE >169:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D1A text7 CODE >170:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D1C text7 CODE >171:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D1D text7 CODE >172:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D1F text7 CODE >173:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D20 text7 CODE >174:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
+D21 text6 CODE >61:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+D21 text6 CODE >64:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+D24 text6 CODE >66:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+D25 text6 CODE >68:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+D26 text6 CODE >70:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+D28 text6 CODE >72:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+D29 text6 CODE >73:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+71A text5 CODE >55:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+71A text5 CODE >60:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+71C text5 CODE >61:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+71D text5 CODE >62:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+71E text5 CODE >67:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+721 text5 CODE >68:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+723 text5 CODE >69:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+725 text5 CODE >74:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+728 text5 CODE >75:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+72A text5 CODE >76:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+72C text5 CODE >81:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+72E text5 CODE >82:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+72F text5 CODE >83:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+730 text5 CODE >88:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+732 text5 CODE >89:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+733 text5 CODE >90:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+734 text5 CODE >95:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+737 text5 CODE >96:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+739 text5 CODE >97:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+73B text5 CODE >102:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+73E text5 CODE >103:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+740 text5 CODE >104:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+742 text5 CODE >113:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+745 text5 CODE >114:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+747 text5 CODE >115:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+74A text5 CODE >116:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+74C text5 CODE >117:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+74E text5 CODE >118:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+751 text5 CODE >119:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/pin_manager.c
+CE3 text4 CODE >81:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+CE3 text4 CODE >84:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+CE5 text4 CODE >86:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+CE6 text4 CODE >88:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+CE7 text4 CODE >90:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+CE8 text4 CODE >92:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+CE9 text4 CODE >94:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+CEA text4 CODE >95:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+C86 text3 CODE >75:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+C86 text3 CODE >78:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+C89 text3 CODE >79:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+DF4 text2 CODE >50:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+DF4 text2 CODE >53:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+DF7 text2 CODE >54:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+DFA text2 CODE >55:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+DFD text2 CODE >56:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+E00 text2 CODE >57:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+E03 text2 CODE >58:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+E06 text2 CODE >59:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/mcc.c
+789 text1 CODE >51:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+78B text1 CODE >53:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+791 text1 CODE >53:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+795 text1 CODE >54:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+7A1 text1 CODE >55:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+7AA text1 CODE >56:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+7B2 text1 CODE >57:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+7B5 text1 CODE >58:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+7B9 text1 CODE >58:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+7BD text1 CODE >59:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/drivers/i2c_simple_master.c
+752 maintext CODE >53:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
+752 maintext CODE >56:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
+755 maintext CODE >62:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
+756 maintext CODE >65:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
+757 maintext CODE >74:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
+767 maintext CODE >75:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
+777 maintext CODE >79:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
+77A maintext CODE >80:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
+CC7 clrtext CODE >6317:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+CC7 clrtext CODE >6318:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+CC8 clrtext CODE >6319:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+CC8 clrtext CODE >6320:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+CC9 clrtext CODE >6321:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+CCA clrtext CODE >6322:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+CCB clrtext CODE >6323:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+CCC clrtext CODE >6324:C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\Accelerometer.production.o
+__end_of_I2C1_SetCallback 1E9C 0 CODE 0 text30 dist/default/production\Accelerometer.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+_I2C1_Initialize 1A30 0 CODE 0 text7 dist/default/production\Accelerometer.production.o
+__Hspace_0 103B 0 ABS 0 - -
+__Hspace_1 140 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 10012 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+_i2c_write1ByteRegister F12 0 CODE 0 text1 dist/default/production\Accelerometer.production.o
+__end_of_rd2RegCompleteHandler@i2c1_master_example$F157 1BC6 0 CODE 0 text73 dist/default/production\Accelerometer.production.o
+_SSP1STATbits 214 0 ABS 0 - dist/default/production\Accelerometer.production.o
+i2c_write1ByteRegister@reg 2C 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_I2C1_SetBuffer 1C66 0 CODE 0 text28 dist/default/production\Accelerometer.production.o
+I2C1_SetDataCompleteCallback@ptr 2A 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_PMD_Initialize 19C6 0 CODE 0 text4 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterDisableIrq 18E8 0 CODE 0 text39 dist/default/production\Accelerometer.production.o
+?_abs 36 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+?_pad 35 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__end_of_WDT_Initialize 1914 0 CODE 0 text3 dist/default/production\Accelerometer.production.o
+__Hstrings 0 0 ABS 0 strings -
+rd2RegCompleteHandler@i2c1_master_example$F157@ptr 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+?_vfprintf D5 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+_LATA 10C 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_LATB 10D 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_LATC 10E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_PMD0 911 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_PMD1 912 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_PMD2 913 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_PMD3 914 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_PMD4 915 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_PMD5 916 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_WPUA 20C 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_WPUB 20D 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_WPUC 20E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+___sp 0 0 STACK 2 stack C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+_dbuf 120 0 BANK2 1 bssBANK2 dist/default/production\Accelerometer.production.o
+_dtoa 90 0 CODE 0 text16 dist/default/production\Accelerometer.production.o
+_main EA4 0 CODE 0 maintext dist/default/production\Accelerometer.production.o
+_nout BD 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+_prec C1 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+abs@a 36 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+btemp 7E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+pad@i 39 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+pad@p 36 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+pad@w 3B 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+start 50 0 CODE 0 init C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+___aomod@counter 34 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_EUSART_Write 1A54 0 CODE 0 text22 dist/default/production\Accelerometer.production.o
+I2C1_Close@returnValue 24 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_I2C1_MasterSendAck 18FC 0 CODE 0 text65 dist/default/production\Accelerometer.production.o
+__end_of_rdBlkRegCompleteHandler@i2c1_master_example$F180 1CC6 0 CODE 0 text71 dist/default/production\Accelerometer.production.o
+pad@fp 3D 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__end_of_EUSART_SetFramingErrorHandler 1A1E 0 CODE 0 text10 dist/default/production\Accelerometer.production.o
+__end_of_EUSART_SetOverrunErrorHandler 1A30 0 CODE 0 text9 dist/default/production\Accelerometer.production.o
+wr1RegCompleteHandler@p 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+_I2C1_MasterDisableIrq 18E2 0 CODE 0 text39 dist/default/production\Accelerometer.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__end_of_EUSART_Initialize 1E4E 0 CODE 0 text8 dist/default/production\Accelerometer.production.o
+__end_of_wr2RegCompleteHandler 1B82 0 CODE 0 text76 dist/default/production\Accelerometer.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+_I2C1_DO_IDLE 191E 0 CODE 0 text60 dist/default/production\Accelerometer.production.o
+_I2C1_DO_RCEN 199A 0 CODE 0 text55 dist/default/production\Accelerometer.production.o
+_I2C1_CallbackReturnReset 4 0 CODE 0 text69 dist/default/production\Accelerometer.production.o
+rdBlkRegCompleteHandler@i2c1_master_example$F180@ptr 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+__end_of_vfpfcnvrt 75C 0 CODE 0 text15 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_SetDataCompleteCallback 1000 0 CODE 0 text27 dist/default/production\Accelerometer.production.o
+__HdataCOMMON 0 0 ABS 0 dataCOMMON -
+__end_of_I2C1_MasterStartRx 18C4 0 CODE 0 text68 dist/default/production\Accelerometer.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+__end_ofi1_I2C1_SetDataCompleteCallback 1A82 0 CODE 0 text81 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_TX_EMPTY 2000 0 CODE 0 text61 dist/default/production\Accelerometer.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_I2C1_MasterGetRxData 18C4 0 CODE 0 text66 dist/default/production\Accelerometer.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+_RC1STAbits 19D 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_EUSART_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_wr2RegCompleteHandler 1B60 0 CODE 0 text76 dist/default/production\Accelerometer.production.o
+_EUSART_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production\Accelerometer.production.o
+__end_of_PMD_Initialize 19D6 0 CODE 0 text4 dist/default/production\Accelerometer.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+_vfpfcnvrt 572 0 CODE 0 text15 dist/default/production\Accelerometer.production.o
+dtoa@fp 4B 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__pidataCOMMON 18AC 0 CODE 0 idataCOMMON dist/default/production\Accelerometer.production.o
+i2c_read1ByteRegister@address 2E 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_rdBlkRegCompleteHandler 1C66 0 CODE 0 text75 dist/default/production\Accelerometer.production.o
+_ANSELA 18C 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_ANSELB 18D 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_ANSELC 18E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_rdBlkRegCompleteHandler@i2c1_master_example$F180 1C96 0 CODE 0 text71 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_RX_NACK_STOP 1964 0 CODE 0 text49 dist/default/production\Accelerometer.production.o
+_MSSP1_InterruptHandler C3 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+_I2C1_MasterEnableRestart 18B2 0 CODE 0 text85 dist/default/production\Accelerometer.production.o
+__end_of_rdBlkRegCompleteHandler 1C96 0 CODE 0 text75 dist/default/production\Accelerometer.production.o
+__LdataCOMMON 0 0 ABS 0 dataCOMMON -
+_I2C1_MasterStartRx 18BE 0 CODE 0 text68 dist/default/production\Accelerometer.production.o
+__end_of_INTERRUPT_InterruptManager 50 0 CODE 0 intentry dist/default/production\Accelerometer.production.o
+i1I2C1_SetBuffer@bufferSize 70 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+rd2RegCompleteHandler@p 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+__end_of_EUSART_Write 1A68 0 CODE 0 text22 dist/default/production\Accelerometer.production.o
+rd1RegCompleteHandler@i2c1_master_example$F146@ptr 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+wr2RegCompleteHandler@i2c1_master_example$F169@ptr 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterOpen 1A9C 0 CODE 0 text33 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterStop 18BE 0 CODE 0 text84 dist/default/production\Accelerometer.production.o
+_I2C1_DO_SEND_RESTART 193C 0 CODE 0 text52 dist/default/production\Accelerometer.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+?_printf D8 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+__LnvBANK1 0 0 ABS 0 nvBANK1 -
+_I2C1_DO_SEND_RESTART_WRITE 1932 0 CODE 0 text53 dist/default/production\Accelerometer.production.o
+_I2C1_SetInterruptHandler 19E8 0 CODE 0 text32 dist/default/production\Accelerometer.production.o
+__end_of___aodiv 572 0 CODE 0 text25 dist/default/production\Accelerometer.production.o
+__end_of___aomod 936 0 CODE 0 text24 dist/default/production\Accelerometer.production.o
+___aodiv@quotient 36 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_IDLE 1928 0 CODE 0 text60 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_RCEN 19A8 0 CODE 0 text55 dist/default/production\Accelerometer.production.o
+_INLVLA 38C 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_INLVLB 38D 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_INLVLC 38E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+I2C1_MasterSendTxData@data 70 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+?_strlen 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+___stackhi 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+___stacklo 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+___aomod@dividend 2B 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_EUSART_Initialize 1E02 0 CODE 0 text8 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterOperation 1D74 0 CODE 0 text36 dist/default/production\Accelerometer.production.o
+__LidataCOMMON 0 0 ABS 0 idataCOMMON -
+_I2C1_DO_SEND_RESTART_READ 1928 0 CODE 0 text54 dist/default/production\Accelerometer.production.o
+_PIN_MANAGER_Initialize E34 0 CODE 0 text5 dist/default/production\Accelerometer.production.o
+___aomod@divisor 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+start_initialization 54 0 CODE 0 cinit dist/default/production\Accelerometer.production.o
+_ODCONA 28C 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_ODCONB 28D 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_ODCONC 28E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+i1I2C1_SetCallback@cb 70 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+_EUSART_SetErrorHandler 19FA 0 CODE 0 text11 dist/default/production\Accelerometer.production.o
+__end_of_i2c_write1ByteRegister F7C 0 CODE 0 text1 dist/default/production\Accelerometer.production.o
+_OSCFRQ 91F 0 ABS 0 - dist/default/production\Accelerometer.production.o
+EUSART_SetOverrunErrorHandler@interruptHandler 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_I2C1_DO_SEND_ADR_WRITE 19B6 0 CODE 0 text58 dist/default/production\Accelerometer.production.o
+i1I2C1_SetDataCompleteCallback@ptr 77 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+_RB7PPS E9F 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_RC1PPS EA1 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_RC1REG 199 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_RC1STA 19D 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_RC2PPS EA2 0 ABS 0 - dist/default/production\Accelerometer.production.o
+rdBlkRegCompleteHandler@p 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+__end_of_SYSTEM_Initialize 1C0E 0 CODE 0 text2 dist/default/production\Accelerometer.production.o
+_I2C1_MasterOpen 1A82 0 CODE 0 text33 dist/default/production\Accelerometer.production.o
+_I2C1_MasterStop 18B8 0 CODE 0 text84 dist/default/production\Accelerometer.production.o
+i1_I2C1_SetBuffer 1AB8 0 CODE 0 text83 dist/default/production\Accelerometer.production.o
+__end_of_rd2RegCompleteHandler 1B60 0 CODE 0 text77 dist/default/production\Accelerometer.production.o
+I2C1_CallbackReturnReset@funPtr 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+clear_ram0 198E 0 CODE 0 clrtext dist/default/production\Accelerometer.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__pcstackBANK1 CC 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+i1_I2C1_SetDataCompleteCallback 1A68 0 CODE 0 text81 dist/default/production\Accelerometer.production.o
+I2C1_SetCallback@idx 27 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+I2C1_SetCallback@ptr 25 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterIsNack 198E 0 CODE 0 text63 dist/default/production\Accelerometer.production.o
+_TX1REG 19A 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_TX1STA 19E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+i1I2C1_SetDataCompleteCallback@cb 75 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+__end_of_printf 1C38 0 CODE 0 text13 dist/default/production\Accelerometer.production.o
+_I2C1_Status A0 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+_WDTCON 97 0 ABS 0 - dist/default/production\Accelerometer.production.o
+fputc@fp 27 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+fputs@fp 2D 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+wr2RegCompleteHandler@p 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+_rd2RegCompleteHandler 1B3E 0 CODE 0 text77 dist/default/production\Accelerometer.production.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 90 0 CODE 0 cinit -
+__end_of_strlen 1CFC 0 CODE 0 text18 dist/default/production\Accelerometer.production.o
+__Hidloc 10008 0 IDLOC 5 idloc -
+i2c_write1ByteRegister@address 2F 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+wr1RegCompleteHandler@i2c1_master_example$F163@ptr 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+__end_of_wr1RegCompleteHandler 1B1C 0 CODE 0 text79 dist/default/production\Accelerometer.production.o
+__Hstack 0 0 STACK 2 stack -
+_I2C1_SetAddressNackCallback 1A9C 0 CODE 0 text29 dist/default/production\Accelerometer.production.o
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+_BAUD1CON 19F 0 ABS 0 - dist/default/production\Accelerometer.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10016 0 CONFIG 4 config -
+I2C1_MasterOperation@read 24 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_wr1RegCompleteHandler@i2c1_master_example$F163 1BC6 0 CODE 0 text72 dist/default/production\Accelerometer.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit 54 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 5 idloc -
+EUSART_SetErrorHandler@interruptHandler 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+__end_of_I2C1_MasterSetIrq 18D0 0 CODE 0 text62 dist/default/production\Accelerometer.production.o
+_wr1RegCompleteHandler 1AFA 0 CODE 0 text79 dist/default/production\Accelerometer.production.o
+_wr2RegCompleteHandler@i2c1_master_example$F169 1AD8 0 CODE 0 text80 dist/default/production\Accelerometer.production.o
+_INTCONbits B 0 ABS 0 - dist/default/production\Accelerometer.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hheap 0 0 HEAP 7 heap -
+__Hinit 50 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Lheap 0 0 HEAP 7 heap -
+__Linit 50 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pstringtext1 2000 0 STRCODE 0 stringtext1 dist/default/production\Accelerometer.production.o
+__pstringtext2 2040 0 STRCODE 0 stringtext2 dist/default/production\Accelerometer.production.o
+__pstringtext3 2052 0 STRCODE 0 stringtext3 dist/default/production\Accelerometer.production.o
+__pstringtext4 2064 0 STRCODE 0 stringtext4 dist/default/production\Accelerometer.production.o
+__pstringtext5 0 0 STRCODE 0 stringtext5 dist/default/production\Accelerometer.production.o
+__pnvBANK1 E9 0 BANK1 1 nvBANK1 dist/default/production\Accelerometer.production.o
+___aodiv@counter 34 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_SSP1CON1 215 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_SSP1CON2 216 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_SSP1STAT 214 0 ABS 0 - dist/default/production\Accelerometer.production.o
+i2c_read1ByteRegister@d2 32 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+___aomod@sign 35 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+int$flags 7E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_I2C1_MasterSendNack 18F4 0 CODE 0 text67 dist/default/production\Accelerometer.production.o
+__S0 103B 0 ABS 0 - -
+__S1 140 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_abs 1CFC 0 CODE 0 text23 dist/default/production\Accelerometer.production.o
+_pad A90 0 CODE 0 text17 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_ADDRESS_NACK 1F46 0 CODE 0 text46 dist/default/production\Accelerometer.production.o
+I2C1_SetInterruptHandler@InterruptHandler 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+I2CSIMPLE_example@total_x E1 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+I2CSIMPLE_example@total_y E3 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+I2CSIMPLE_example@total_z E5 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+_I2C1_CallbackReturnStop 18AE 0 CODE 0 text70 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_CallbackReturnReset 8 0 CODE 0 text69 dist/default/production\Accelerometer.production.o
+I2C1_Open@address 26 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_rd1RegCompleteHandler@i2c1_master_example$F146 1B82 0 CODE 0 text74 dist/default/production\Accelerometer.production.o
+__HidataCOMMON 0 0 ABS 0 idataCOMMON -
+___aodiv@sign 35 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_SEND_STOP 1950 0 CODE 0 text51 dist/default/production\Accelerometer.production.o
+__end_ofi1_I2C1_SetBuffer 1AD8 0 CODE 0 text83 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_CallbackReturnStop 18B2 0 CODE 0 text70 dist/default/production\Accelerometer.production.o
+_I2C1_DO_RESET 196E 0 CODE 0 text47 dist/default/production\Accelerometer.production.o
+__end_of_I2CSIMPLE_example A90 0 CODE 0 text12 dist/default/production\Accelerometer.production.o
+_SYSTEM_Initialize 1BE8 0 CODE 0 text2 dist/default/production\Accelerometer.production.o
+_dtoa$1639 49 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__end_of_abs 1D34 0 CODE 0 text23 dist/default/production\Accelerometer.production.o
+__end_of_pad B3C 0 CODE 0 text17 dist/default/production\Accelerometer.production.o
+_rd2RegCompleteHandler@i2c1_master_example$F157 1BA4 0 CODE 0 text73 dist/default/production\Accelerometer.production.o
+__end_of_i2c_read1ByteRegister C8A 0 CODE 0 text26 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterEnableIrq 18F4 0 CODE 0 text34 dist/default/production\Accelerometer.production.o
+_I2C1_MasterIsNack 1982 0 CODE 0 text63 dist/default/production\Accelerometer.production.o
+__HnvBANK1 0 0 ABS 0 nvBANK1 -
+__Lintentry 8 0 CODE 0 intentry -
+_receiveDataxh CA 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+_receiveDataxl CB 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+_receiveDatayh C8 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+_receiveDatayl C9 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+_receiveDatazh C6 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+_receiveDatazl C7 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+strlen@a 26 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+strlen@s 27 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__pdataBANK0 6C 0 BANK0 1 dataBANK0 dist/default/production\Accelerometer.production.o
+i1I2C1_SetCallback@idx 74 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+i1I2C1_SetCallback@ptr 72 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK2 0 0 ABS 0 bssBANK2 -
+__Lstringtext1 0 0 ABS 0 stringtext1 -
+__Lstringtext2 0 0 ABS 0 stringtext2 -
+__Lstringtext3 0 0 ABS 0 stringtext3 -
+__Lstringtext4 0 0 ABS 0 stringtext4 -
+__Lstringtext5 0 0 ABS 0 stringtext5 -
+__end_ofi1_I2C1_SetCallback 1E02 0 CODE 0 text82 dist/default/production\Accelerometer.production.o
+vfpfcnvrt@fmt 5C 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production\Accelerometer.production.o
+_PIE1bits 91 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_i2c_read1ByteRegister BE6 0 CODE 0 text26 dist/default/production\Accelerometer.production.o
+EUSART_SetFramingErrorHandler@interruptHandler 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+pad@buf 35 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+I2C1_SetDataCompleteCallback@cb 28 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__ptext10 1A0C 0 CODE 0 text10 dist/default/production\Accelerometer.production.o
+__ptext11 19FA 0 CODE 0 text11 dist/default/production\Accelerometer.production.o
+__ptext12 936 0 CODE 0 text12 dist/default/production\Accelerometer.production.o
+__ptext13 1C0E 0 CODE 0 text13 dist/default/production\Accelerometer.production.o
+__ptext14 F7C 0 CODE 0 text14 dist/default/production\Accelerometer.production.o
+__ptext15 572 0 CODE 0 text15 dist/default/production\Accelerometer.production.o
+__ptext16 90 0 CODE 0 text16 dist/default/production\Accelerometer.production.o
+__ptext17 A90 0 CODE 0 text17 dist/default/production\Accelerometer.production.o
+__ptext18 1CC6 0 CODE 0 text18 dist/default/production\Accelerometer.production.o
+__ptext19 1E9C 0 CODE 0 text19 dist/default/production\Accelerometer.production.o
+__ptext20 DAE 0 CODE 0 text20 dist/default/production\Accelerometer.production.o
+__ptext21 19A8 0 CODE 0 text21 dist/default/production\Accelerometer.production.o
+__ptext22 1A54 0 CODE 0 text22 dist/default/production\Accelerometer.production.o
+__ptext23 1CFC 0 CODE 0 text23 dist/default/production\Accelerometer.production.o
+__ptext24 75C 0 CODE 0 text24 dist/default/production\Accelerometer.production.o
+__ptext25 368 0 CODE 0 text25 dist/default/production\Accelerometer.production.o
+__ptext26 BE6 0 CODE 0 text26 dist/default/production\Accelerometer.production.o
+__ptext27 FE4 0 CODE 0 text27 dist/default/production\Accelerometer.production.o
+__ptext28 1C38 0 CODE 0 text28 dist/default/production\Accelerometer.production.o
+__ptext29 1A9C 0 CODE 0 text29 dist/default/production\Accelerometer.production.o
+__ptext30 1E4E 0 CODE 0 text30 dist/default/production\Accelerometer.production.o
+__ptext31 C8A 0 CODE 0 text31 dist/default/production\Accelerometer.production.o
+__ptext32 19E8 0 CODE 0 text32 dist/default/production\Accelerometer.production.o
+__ptext33 1A82 0 CODE 0 text33 dist/default/production\Accelerometer.production.o
+__ptext34 18EE 0 CODE 0 text34 dist/default/production\Accelerometer.production.o
+__ptext35 1978 0 CODE 0 text35 dist/default/production\Accelerometer.production.o
+__ptext36 1D34 0 CODE 0 text36 dist/default/production\Accelerometer.production.o
+__ptext37 18E8 0 CODE 0 text37 dist/default/production\Accelerometer.production.o
+__ptext38 1D74 0 CODE 0 text38 dist/default/production\Accelerometer.production.o
+__ptext39 18E2 0 CODE 0 text39 dist/default/production\Accelerometer.production.o
+__ptext40 18DC 0 CODE 0 text40 dist/default/production\Accelerometer.production.o
+__ptext41 18D6 0 CODE 0 text41 dist/default/production\Accelerometer.production.o
+__ptext43 1904 0 CODE 0 text43 dist/default/production\Accelerometer.production.o
+__ptext44 1F46 0 CODE 0 text44 dist/default/production\Accelerometer.production.o
+__ptext45 18D0 0 CODE 0 text45 dist/default/production\Accelerometer.production.o
+__ptext46 1EEE 0 CODE 0 text46 dist/default/production\Accelerometer.production.o
+__ptext47 196E 0 CODE 0 text47 dist/default/production\Accelerometer.production.o
+__ptext48 1964 0 CODE 0 text48 dist/default/production\Accelerometer.production.o
+__ptext49 195A 0 CODE 0 text49 dist/default/production\Accelerometer.production.o
+__ptext50 1950 0 CODE 0 text50 dist/default/production\Accelerometer.production.o
+__ptext51 1946 0 CODE 0 text51 dist/default/production\Accelerometer.production.o
+__ptext52 193C 0 CODE 0 text52 dist/default/production\Accelerometer.production.o
+__ptext53 1932 0 CODE 0 text53 dist/default/production\Accelerometer.production.o
+__ptext54 1928 0 CODE 0 text54 dist/default/production\Accelerometer.production.o
+__ptext55 199A 0 CODE 0 text55 dist/default/production\Accelerometer.production.o
+__ptext56 D22 0 CODE 0 text56 dist/default/production\Accelerometer.production.o
+__ptext57 B3C 0 CODE 0 text57 dist/default/production\Accelerometer.production.o
+__ptext58 19B6 0 CODE 0 text58 dist/default/production\Accelerometer.production.o
+__ptext59 19D6 0 CODE 0 text59 dist/default/production\Accelerometer.production.o
+__ptext60 191E 0 CODE 0 text60 dist/default/production\Accelerometer.production.o
+__ptext61 1FA2 0 CODE 0 text61 dist/default/production\Accelerometer.production.o
+__ptext62 18CA 0 CODE 0 text62 dist/default/production\Accelerometer.production.o
+__ptext63 1982 0 CODE 0 text63 dist/default/production\Accelerometer.production.o
+__ptext64 1914 0 CODE 0 text64 dist/default/production\Accelerometer.production.o
+__ptext65 18FC 0 CODE 0 text65 dist/default/production\Accelerometer.production.o
+__ptext66 18C4 0 CODE 0 text66 dist/default/production\Accelerometer.production.o
+__ptext67 18F4 0 CODE 0 text67 dist/default/production\Accelerometer.production.o
+__ptext68 18BE 0 CODE 0 text68 dist/default/production\Accelerometer.production.o
+__ptext69 4 0 CODE 0 text69 dist/default/production\Accelerometer.production.o
+__ptext70 18AE 0 CODE 0 text70 dist/default/production\Accelerometer.production.o
+__ptext71 1C96 0 CODE 0 text71 dist/default/production\Accelerometer.production.o
+__ptext72 1BC6 0 CODE 0 text72 dist/default/production\Accelerometer.production.o
+__ptext73 1BA4 0 CODE 0 text73 dist/default/production\Accelerometer.production.o
+__ptext74 1B82 0 CODE 0 text74 dist/default/production\Accelerometer.production.o
+__ptext75 1C66 0 CODE 0 text75 dist/default/production\Accelerometer.production.o
+__ptext76 1B60 0 CODE 0 text76 dist/default/production\Accelerometer.production.o
+__ptext77 1B3E 0 CODE 0 text77 dist/default/production\Accelerometer.production.o
+__ptext78 1B1C 0 CODE 0 text78 dist/default/production\Accelerometer.production.o
+__ptext79 1AFA 0 CODE 0 text79 dist/default/production\Accelerometer.production.o
+__ptext80 1AD8 0 CODE 0 text80 dist/default/production\Accelerometer.production.o
+__ptext81 1A68 0 CODE 0 text81 dist/default/production\Accelerometer.production.o
+__ptext82 1DB6 0 CODE 0 text82 dist/default/production\Accelerometer.production.o
+__ptext83 1AB8 0 CODE 0 text83 dist/default/production\Accelerometer.production.o
+__ptext84 18B8 0 CODE 0 text84 dist/default/production\Accelerometer.production.o
+__ptext85 18B2 0 CODE 0 text85 dist/default/production\Accelerometer.production.o
+_I2C1_DO_RX_ACK 1950 0 CODE 0 text50 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterEnableRestart 18B8 0 CODE 0 text85 dist/default/production\Accelerometer.production.o
+__end_of_PIN_MANAGER_Initialize EA4 0 CODE 0 text5 dist/default/production\Accelerometer.production.o
+___aodiv 368 0 CODE 0 text25 dist/default/production\Accelerometer.production.o
+___aomod 75C 0 CODE 0 text24 dist/default/production\Accelerometer.production.o
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__pmaintext EA4 0 CODE 0 maintext dist/default/production\Accelerometer.production.o
+__Lbigram 0 0 ABS 0 bigram -
+__end_of_I2C1_MasterSendTxData 191E 0 CODE 0 text64 dist/default/production\Accelerometer.production.o
+I2C1_SetBuffer@bufferSize 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_I2C1_DO_RX_NACK_STOP 195A 0 CODE 0 text49 dist/default/production\Accelerometer.production.o
+__end_of_EUSART_SetErrorHandler 1A0C 0 CODE 0 text11 dist/default/production\Accelerometer.production.o
+?_dtoa 3E 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+__end_of_I2C1_Open D22 0 CODE 0 text31 dist/default/production\Accelerometer.production.o
+_printf 1C0E 0 CODE 0 text13 dist/default/production\Accelerometer.production.o
+_I2C1_MasterSetIrq 18CA 0 CODE 0 text62 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_SEND_ADR_WRITE 19C6 0 CODE 0 text58 dist/default/production\Accelerometer.production.o
+_I2C1_MasterFsm 1F46 0 CODE 0 text44 dist/default/production\Accelerometer.production.o
+_I2C1_MasterIsr 1904 0 CODE 0 text43 dist/default/production\Accelerometer.production.o
+I2C1_SetAddressNackCallback@ptr 2A 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+I2C1_MasterOperation@returnValue 25 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+i2c_read1ByteRegister@reg 2C 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_I2C1_MasterClose 18DC 0 CODE 0 text40 dist/default/production\Accelerometer.production.o
+_I2C1_MasterStart 18E8 0 CODE 0 text37 dist/default/production\Accelerometer.production.o
+_I2C1_MasterWrite 1978 0 CODE 0 text35 dist/default/production\Accelerometer.production.o
+_strlen 1CC6 0 CODE 0 text18 dist/default/production\Accelerometer.production.o
+__end_of_rd1RegCompleteHandler 1B3E 0 CODE 0 text78 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_SetInterruptHandler 19FA 0 CODE 0 text32 dist/default/production\Accelerometer.production.o
+_EUSART_FramingErrorHandler ED 0 BANK1 1 nvBANK1 dist/default/production\Accelerometer.production.o
+i1_I2C1_SetCallback 1DB6 0 CODE 0 text82 dist/default/production\Accelerometer.production.o
+_EUSART_OverrunErrorHandler EB 0 BANK1 1 nvBANK1 dist/default/production\Accelerometer.production.o
+_I2C1_MasterSendTxData 1914 0 CODE 0 text64 dist/default/production\Accelerometer.production.o
+I2C1_Open@returnValue 27 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterSendNack 18FC 0 CODE 0 text67 dist/default/production\Accelerometer.production.o
+_SSP1CLKPPS E20 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_OSCCON1 919 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_OSCCON3 91B 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_OSCTUNE 91E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_SSP1DATPPS E21 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_I2C1_Open C8A 0 CODE 0 text31 dist/default/production\Accelerometer.production.o
+_EUSART_ErrorHandler E9 0 BANK1 1 nvBANK1 dist/default/production\Accelerometer.production.o
+_I2C1_DO_RX_NACK_RESTART 1964 0 CODE 0 text48 dist/default/production\Accelerometer.production.o
+?_vfpfcnvrt 5C 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+i2c_read1ByteRegister@e 2F 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+i2c_read1ByteRegister@x 30 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_RX_NACK_RESTART 196E 0 CODE 0 text48 dist/default/production\Accelerometer.production.o
+_I2C1_DO_SEND_STOP 1946 0 CODE 0 text51 dist/default/production\Accelerometer.production.o
+_rd1RegCompleteHandler 1B1C 0 CODE 0 text78 dist/default/production\Accelerometer.production.o
+_PIR1bits 11 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_I2C1_MasterOperation 1D34 0 CODE 0 text36 dist/default/production\Accelerometer.production.o
+__Lend_init 50 0 CODE 0 end_init -
+_EUSART_DefaultErrorHandler 0 0 ABS 0 - dist/default/production\Accelerometer.production.o
+___aodiv@divisor 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_I2CSIMPLE_example 936 0 CODE 0 text12 dist/default/production\Accelerometer.production.o
+___aodiv@dividend 2B 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__end_of_I2C1_MasterGetRxData 18CA 0 CODE 0 text66 dist/default/production\Accelerometer.production.o
+printf@ap 69 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_EUSART_SetFramingErrorHandler 1A0C 0 CODE 0 text10 dist/default/production\Accelerometer.production.o
+_EUSART_SetOverrunErrorHandler 1A1E 0 CODE 0 text9 dist/default/production\Accelerometer.production.o
+end_of_initialization 88 0 CODE 0 cinit dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_RX_ACK 195A 0 CODE 0 text50 dist/default/production\Accelerometer.production.o
+__Hintentry 50 0 CODE 0 intentry -
+fputc@c 25 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+fputs@c 31 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+fputs@i 32 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+fputs@s 34 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+i1I2C1_SetBuffer@buffer 73 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+_I2C1_MasterClearIrq 18D6 0 CODE 0 text41 dist/default/production\Accelerometer.production.o
+_TX1STAbits 19E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+__Lstrings 0 0 ABS 0 strings -
+?___aodiv 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+?___aomod 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+vfprintf@fmt D5 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__HbssBANK2 0 0 ABS 0 bssBANK2 -
+__end_of_I2C1_MasterFsm 1FA2 0 CODE 0 text44 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterIsr 190C 0 CODE 0 text43 dist/default/production\Accelerometer.production.o
+_I2C1_Close 1D74 0 CODE 0 text38 dist/default/production\Accelerometer.production.o
+_I2C1_DO_RX D22 0 CODE 0 text56 dist/default/production\Accelerometer.production.o
+_I2C1_DO_TX B3C 0 CODE 0 text57 dist/default/production\Accelerometer.production.o
+vfpfcnvrt@ap 5D 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+vfpfcnvrt@fp D4 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+vfpfcnvrt@ll CC 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+__ptext1 F12 0 CODE 0 text1 dist/default/production\Accelerometer.production.o
+__ptext2 1BE8 0 CODE 0 text2 dist/default/production\Accelerometer.production.o
+__ptext3 190C 0 CODE 0 text3 dist/default/production\Accelerometer.production.o
+__ptext4 19C6 0 CODE 0 text4 dist/default/production\Accelerometer.production.o
+__ptext5 E34 0 CODE 0 text5 dist/default/production\Accelerometer.production.o
+__ptext6 1A42 0 CODE 0 text6 dist/default/production\Accelerometer.production.o
+__ptext7 1A30 0 CODE 0 text7 dist/default/production\Accelerometer.production.o
+__ptext8 1E02 0 CODE 0 text8 dist/default/production\Accelerometer.production.o
+__ptext9 1A1E 0 CODE 0 text9 dist/default/production\Accelerometer.production.o
+vfprintf@ap D7 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+vfprintf@fp 65 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+vfprintf@cfmt 66 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_vfprintf F7C 0 CODE 0 text14 dist/default/production\Accelerometer.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_I2C1_SetDataCompleteCallback FE4 0 CODE 0 text27 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_RESET 1978 0 CODE 0 text47 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_SEND_RESTART 1946 0 CODE 0 text52 dist/default/production\Accelerometer.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__Hstringtext1 0 0 ABS 0 stringtext1 -
+__Hstringtext2 0 0 ABS 0 stringtext2 -
+__Hstringtext3 0 0 ABS 0 stringtext3 -
+__Hstringtext4 0 0 ABS 0 stringtext4 -
+__Hstringtext5 0 0 ABS 0 stringtext5 -
+__end_of_vfprintf FE4 0 CODE 0 text14 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterClose 18E2 0 CODE 0 text40 dist/default/production\Accelerometer.production.o
+_I2C1_SetCallback 1E4E 0 CODE 0 text30 dist/default/production\Accelerometer.production.o
+I2C1_SetCallback@cb 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_SLRCONA 30C 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_SLRCONB 30D 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_SLRCONC 30E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+___heap_lo 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs9u8.o
+__end_of_I2C1_MasterStart 18EE 0 CODE 0 text37 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterWrite 1982 0 CODE 0 text35 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_SEND_ADR_READ 19E8 0 CODE 0 text59 dist/default/production\Accelerometer.production.o
+EUSART_Write@txData 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__end_of__initialization 88 0 CODE 0 cinit dist/default/production\Accelerometer.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__pidataBANK0 18AA 0 CODE 0 idataBANK0 dist/default/production\Accelerometer.production.o
+I2C1_SetBuffer@buffer 26 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+_SP1BRGH 19C 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_SP1BRGL 19B 0 ABS 0 - dist/default/production\Accelerometer.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+_SSP1CON1bits 215 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_SSP1CON2bits 216 0 ABS 0 - dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_SEND_RESTART_WRITE 193C 0 CODE 0 text53 dist/default/production\Accelerometer.production.o
+__end_of_i2c1_fsmStateTable 2040 0 STRCODE 0 stringtext1 dist/default/production\Accelerometer.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+_I2C1_DO_SEND_ADR_READ 19D6 0 CODE 0 text59 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_Initialize 1A42 0 CODE 0 text7 dist/default/production\Accelerometer.production.o
+_SSP1ADD 212 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_SSP1BUF 211 0 ABS 0 - dist/default/production\Accelerometer.production.o
+__Hend_init 54 0 CODE 0 end_init -
+__end_ofi1_I2C1_MasterClearIrq 18D6 0 CODE 0 text45 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_Close 1DB6 0 CODE 0 text38 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_RX DAE 0 CODE 0 text56 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_TX BE6 0 CODE 0 text57 dist/default/production\Accelerometer.production.o
+putch@txData 24 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+rd1RegCompleteHandler@p 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
+__end_of_dtoa 368 0 CODE 0 text16 dist/default/production\Accelerometer.production.o
+__end_of_main F12 0 CODE 0 maintext dist/default/production\Accelerometer.production.o
+printf@fmt D8 0 BANK1 1 cstackBANK1 dist/default/production\Accelerometer.production.o
+__end_of_wr1RegCompleteHandler@i2c1_master_example$F163 1BE8 0 CODE 0 text72 dist/default/production\Accelerometer.production.o
+__end_of_fputc E34 0 CODE 0 text20 dist/default/production\Accelerometer.production.o
+__end_of_fputs 1EEE 0 CODE 0 text19 dist/default/production\Accelerometer.production.o
+_I2C1_SetBuffer 1C38 0 CODE 0 text28 dist/default/production\Accelerometer.production.o
+_OSCEN 91D 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_RXPPS E24 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_TRISA 8C 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_TRISB 8D 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_TRISC 8E 0 ABS 0 - dist/default/production\Accelerometer.production.o
+__end_of_putch 19B6 0 CODE 0 text21 dist/default/production\Accelerometer.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_I2C1_DO_ADDRESS_NACK 1EEE 0 CODE 0 text46 dist/default/production\Accelerometer.production.o
+_flags 6A 0 BANK0 1 bssBANK0 dist/default/production\Accelerometer.production.o
+_fputc DAE 0 CODE 0 text20 dist/default/production\Accelerometer.production.o
+_fputs 1E9C 0 CODE 0 text19 dist/default/production\Accelerometer.production.o
+_putch 19A8 0 CODE 0 text21 dist/default/production\Accelerometer.production.o
+_width BF 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+_eusartRxLastError C5 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+_WDT_Initialize 190C 0 CODE 0 text3 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_DO_SEND_RESTART_READ 1932 0 CODE 0 text54 dist/default/production\Accelerometer.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\Accelerometer.production.o
+__end_of_wr2RegCompleteHandler@i2c1_master_example$F169 1AFA 0 CODE 0 text80 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterClearIrq 18DC 0 CODE 0 text41 dist/default/production\Accelerometer.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__end_of_OSCILLATOR_Initialize 1A54 0 CODE 0 text6 dist/default/production\Accelerometer.production.o
+i1_I2C1_MasterClearIrq 18D0 0 CODE 0 text45 dist/default/production\Accelerometer.production.o
+__initialization 54 0 CODE 0 cinit dist/default/production\Accelerometer.production.o
+i2c_write1ByteRegister@data 2D 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+I2C1_SetAddressNackCallback@cb 28 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__pbssBANK0 6A 0 BANK0 1 bssBANK0 dist/default/production\Accelerometer.production.o
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
+__pbssBANK2 120 0 BANK2 1 bssBANK2 dist/default/production\Accelerometer.production.o
+_i2c1_fsmStateTable 2000 0 STRCODE 0 stringtext1 dist/default/production\Accelerometer.production.o
+__pdataCOMMON 7D 0 COMMON 1 dataCOMMON dist/default/production\Accelerometer.production.o
+_I2C1_DO_TX_EMPTY 1FA2 0 CODE 0 text61 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_SetAddressNackCallback 1AB8 0 CODE 0 text29 dist/default/production\Accelerometer.production.o
+_I2C1_MasterEnableIrq 18EE 0 CODE 0 text34 dist/default/production\Accelerometer.production.o
+dtoa@d 3E 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+dtoa@i 5A 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+dtoa@n 52 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+dtoa@p 4C 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+dtoa@s 50 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+dtoa@w 4E 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
+__end_of_I2C1_MasterSendAck 1904 0 CODE 0 text65 dist/default/production\Accelerometer.production.o
+_OSCILLATOR_Initialize 1A42 0 CODE 0 text6 dist/default/production\Accelerometer.production.o
+__end_of_rd1RegCompleteHandler@i2c1_master_example$F146 1BA4 0 CODE 0 text74 dist/default/production\Accelerometer.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text2 0 DF4 1BE8 13 2
+text3 0 C86 190C 4 2
+text4 0 CE3 19C6 8 2
+text6 0 D21 1A42 9 2
+text7 0 D18 1A30 9 2
+text8 0 F01 1E02 26 2
+text9 0 D0F 1A1E 9 2
+text10 0 D06 1A0C 9 2
+text11 0 CFD 19FA 9 2
+text13 0 E07 1C0E 15 2
+text18 0 E63 1CC6 1B 2
+text19 0 F4E 1E9C 29 2
+text21 0 CD4 19A8 7 2
+text22 0 D2A 1A54 A 2
+text23 0 E7E 1CFC 1C 2
+text28 0 E1C 1C38 17 2
+text29 0 D4E 1A9C E 2
+text30 0 F27 1E4E 27 2
+text32 0 CF4 19E8 9 2
+text33 0 D41 1A82 D 2
+text34 0 C77 18EE 3 2
+text35 0 CBC 1978 5 2
+text36 0 E9A 1D34 20 2
+text37 0 C74 18E8 3 2
+text38 0 EBA 1D74 21 2
+text39 0 C71 18E2 3 2
+text40 0 C6E 18DC 3 2
+text41 0 C6B 18D6 3 2
+text43 0 C82 1904 4 2
+text44 0 FA3 1F46 2E 2
+text45 0 C68 18D0 3 2
+text46 0 F77 1EEE 2C 2
+text47 0 CB7 196E 5 2
+text48 0 CB2 1964 5 2
+text49 0 CAD 195A 5 2
+text50 0 CA8 1950 5 2
+text51 0 CA3 1946 5 2
+text52 0 C9E 193C 5 2
+text53 0 C99 1932 5 2
+text54 0 C94 1928 5 2
+text55 0 CCD 199A 7 2
+text58 0 CDB 19B6 8 2
+text59 0 CEB 19D6 9 2
+text60 0 C8F 191E 5 2
+text61 0 FD1 1FA2 2F 2
+text62 0 C65 18CA 3 2
+text63 0 CC1 1982 6 2
+text64 0 C8A 1914 5 2
+text65 0 C7E 18FC 4 2
+text66 0 C62 18C4 3 2
+text67 0 C7A 18F4 4 2
+text68 0 C5F 18BE 3 2
+text70 0 C57 18AE 2 2
+text71 0 E4B 1C96 18 2
+text72 0 DE3 1BC6 11 2
+text73 0 DD2 1BA4 11 2
+text74 0 DC1 1B82 11 2
+text75 0 E33 1C66 18 2
+text76 0 DB0 1B60 11 2
+text77 0 D9F 1B3E 11 2
+text78 0 D8E 1B1C 11 2
+text79 0 D7D 1AFA 11 2
+text80 0 D6C 1AD8 11 2
+text81 0 D34 1A68 D 2
+text82 0 EDB 1DB6 26 2
+text83 0 D5C 1AB8 10 2
+text84 0 C5C 18B8 3 2
+text85 0 C59 18B2 3 2
+idataCOMMON 0 C56 18AC 1 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 4D 1
+stringtext1 0 1000 2000 3B 2
+intentry 0 4 8 7FC 2
+reset_vec 0 0 0 4 2
+bssBANK1 1 A0 A0 4F 1
+bssBANK2 1 120 120 20 1
+idataBANK0 0 C55 18AA 1 2
+clrtext 0 CC7 198E 6 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

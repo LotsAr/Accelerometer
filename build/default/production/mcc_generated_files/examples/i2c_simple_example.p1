@@ -1071,60 +1071,109 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; <" TOSH equ 0FEFh ;# ">
 "213 mcc_generated_files/examples/../drivers/.././i2c1_master.h
 [v _MSSP1_InterruptHandler `*F7047 ~T0 @X0 1 e ]
-"75 mcc_generated_files/examples/i2c_simple_example.c
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 75: void I2CSIMPLE_example(void)
+"82 mcc_generated_files/examples/i2c_simple_example.c
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 82: uint8_t receiveDataxl = 0;
+[v _receiveDataxl `uc ~T0 @X0 1 e ]
+[i _receiveDataxl
+-> -> 0 `i `uc
+]
+"83
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 83: uint8_t receiveDataxh = 0;
+[v _receiveDataxh `uc ~T0 @X0 1 e ]
+[i _receiveDataxh
+-> -> 0 `i `uc
+]
+"84
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 84: uint8_t receiveDatayl = 0;
+[v _receiveDatayl `uc ~T0 @X0 1 e ]
+[i _receiveDatayl
+-> -> 0 `i `uc
+]
+"85
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 85: uint8_t receiveDatayh = 0;
+[v _receiveDatayh `uc ~T0 @X0 1 e ]
+[i _receiveDatayh
+-> -> 0 `i `uc
+]
+"86
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 86: uint8_t receiveDatazl = 0;
+[v _receiveDatazl `uc ~T0 @X0 1 e ]
+[i _receiveDatazl
+-> -> 0 `i `uc
+]
+"87
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 87: uint8_t receiveDatazh = 0;
+[v _receiveDatazh `uc ~T0 @X0 1 e ]
+[i _receiveDatazh
+-> -> 0 `i `uc
+]
+"88
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 88: uint8_t receiveDataFIFO = 15;
+[v _receiveDataFIFO `uc ~T0 @X0 1 e ]
+[i _receiveDataFIFO
+-> -> 15 `i `uc
+]
+"89
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 89: uint8_t receiveData17 = 15;
+[v _receiveData17 `uc ~T0 @X0 1 e ]
+[i _receiveData17
+-> -> 15 `i `uc
+]
+"98
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 98: void I2CSIMPLE_example(void)
 [v _I2CSIMPLE_example `(v ~T0 @X0 1 ef ]
-"76
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 76: {
+"99
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 99: {
 {
 [e :U _I2CSIMPLE_example ]
 [f ]
-"80
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 80:     uint8_t i=0;
-[v _i `uc ~T0 @X0 1 a ]
-[e = _i -> -> 0 `i `uc ]
-[v F7114 `uc ~T0 @X0 -> 17 `i s ]
-[i F7114
-:U ..
-"81
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 81:     uint8_t sendData[17] = {0x00,0x00,0xA1,0xA2,0xA3,0xA4,0xA5,0xA6,0xA7,0xA8,0xA9,0xAA,0xAB,0xAC,0xAD,0xAE,0xAF};
--> -> 0 `i `uc
--> -> 0 `i `uc
--> -> 161 `i `uc
--> -> 162 `i `uc
--> -> 163 `i `uc
--> -> 164 `i `uc
--> -> 165 `i `uc
--> -> 166 `i `uc
--> -> 167 `i `uc
--> -> 168 `i `uc
--> -> 169 `i `uc
--> -> 170 `i `uc
--> -> 171 `i `uc
--> -> 172 `i `uc
--> -> 173 `i `uc
--> -> 174 `i `uc
--> -> 175 `i `uc
-..
-]
-[v _sendData `uc ~T0 @X0 -> 17 `i a ]
-[e = _sendData F7114 ]
-"82
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 82:     uint8_t receiveData = 0;
-[v _receiveData `uc ~T0 @X0 1 a ]
-[e = _receiveData -> -> 0 `i `uc ]
-"84
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 84:     receiveData = i2c_read1ByteRegister(0x1E, 0x29);
-[e = _receiveData ( _i2c_read1ByteRegister (2 , -> -> 30 `i `uc -> -> 41 `i `uc ]
-"89
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 89:     _delay((unsigned long)((10)*(32000000/4000.0)));
-[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
-"103
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 103:     printf("%x\n\r", receiveData);
-[e ( _printf , (. :s 1C -> _receiveData `i ]
-"104
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 104: }
+"112
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 112:     receiveDataxl = i2c_read1ByteRegister(0x6B, 0x28);
+[e = _receiveDataxl ( _i2c_read1ByteRegister (2 , -> -> 107 `i `uc -> -> 40 `i `uc ]
+"113
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 113:     receiveDataxh = i2c_read1ByteRegister(0x6B, 0x29);
+[e = _receiveDataxh ( _i2c_read1ByteRegister (2 , -> -> 107 `i `uc -> -> 41 `i `uc ]
+"115
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 115:     receiveDatayl = i2c_read1ByteRegister(0x6B, 0x2A);
+[e = _receiveDatayl ( _i2c_read1ByteRegister (2 , -> -> 107 `i `uc -> -> 42 `i `uc ]
+"116
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 116:     receiveDatayh = i2c_read1ByteRegister(0x6B, 0x2B);
+[e = _receiveDatayh ( _i2c_read1ByteRegister (2 , -> -> 107 `i `uc -> -> 43 `i `uc ]
+"118
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 118:     receiveDatazl = i2c_read1ByteRegister(0x6B, 0x2C);
+[e = _receiveDatazl ( _i2c_read1ByteRegister (2 , -> -> 107 `i `uc -> -> 44 `i `uc ]
+"119
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 119:     receiveDatazh = i2c_read1ByteRegister(0x6B, 0x2D);
+[e = _receiveDatazh ( _i2c_read1ByteRegister (2 , -> -> 107 `i `uc -> -> 45 `i `uc ]
+"120
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 120:     int16_t total_x = (receiveDataxh<<8 )+ receiveDataxl;
+[v _total_x `s ~T0 @X0 1 a ]
+[e = _total_x -> + << -> _receiveDataxh `i -> 8 `i -> _receiveDataxl `i `s ]
+"121
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 121:     int16_t total_y = (receiveDatayh<<8 )+ receiveDatayl;
+[v _total_y `s ~T0 @X0 1 a ]
+[e = _total_y -> + << -> _receiveDatayh `i -> 8 `i -> _receiveDatayl `i `s ]
+"122
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 122:     int16_t total_z = (receiveDatazh<<8 )+ receiveDatazl;
+[v _total_z `s ~T0 @X0 1 a ]
+[e = _total_z -> + << -> _receiveDatazh `i -> 8 `i -> _receiveDatazl `i `s ]
+"126
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 126:     _delay((unsigned long)((100)*(32000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"139
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 139:     printf(" X: %d\n\r",total_x);
+[e ( _printf , (. :s 1C -> _total_x `i ]
+"140
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 140:     printf(" Y: %d\n\r",total_y);
+[e ( _printf , (. :s 2C -> _total_y `i ]
+"141
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 141:     printf(" Z: %d\n\r",total_z);
+[e ( _printf , (. :s 3C -> _total_z `i ]
+"154
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 154: }
 [e :UE 967 ]
 }
-[p f _printf 12582912 ]
-[a 1C 37 120 10 13 0 ]
+[p f _printf 8388736 ]
+[a 3C 32 90 58 32 37 100 10 13 0 ]
+[a 2C 32 89 58 32 37 100 10 13 0 ]
+[a 1C 32 88 58 32 37 100 10 13 0 ]

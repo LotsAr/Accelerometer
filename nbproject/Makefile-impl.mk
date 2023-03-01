@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Accelerometer.X
+PROJECTNAME=Accelerometer
 
 # Active Configuration
 DEFAULTCONF=default

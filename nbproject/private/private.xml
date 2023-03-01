@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Woensdag/Documents/Accelerometer.X/LSM9DS1.h</file>
-            <file>file:/C:/Users/Woensdag/Documents/Accelerometer.X/main.c</file>
-            <file>file:/C:/Users/Woensdag/Documents/Accelerometer.X/mcc_generated_files/examples/i2c_simple_example.h</file>
-            <file>file:/C:/Users/Woensdag/Documents/Accelerometer.X/mcc_generated_files/examples/i2c_simple_example.c</file>
+            <file>file:/C:/Users/Woensdag/Documents/GitHub/Accelerometer/mcc_generated_files/drivers/i2c_simple_master.c</file>
+            <file>file:/C:/Users/Woensdag/Documents/GitHub/Accelerometer/mcc_generated_files/examples/i2c_simple_example.c</file>
+            <file>file:/C:/Users/Woensdag/Documents/GitHub/Accelerometer/main.c</file>
+            <file>file:/C:/Users/Woensdag/Documents/GitHub/Accelerometer/LSM9DS1.h</file>
         </group>
     </open-files>
 </project-private>

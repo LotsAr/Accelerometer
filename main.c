@@ -45,6 +45,8 @@
 #include "mcc_generated_files/examples/i2c_simple_example.h"
 #include "LSM9DS1.h"
 
+#define ACC_DEVICE_ADDRESS_1 0x6B
+#define ACC_DEVICE_ADDRESS_2 0x6A
 /*
                          Main application
  */
@@ -67,7 +69,11 @@ void main(void)
 
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
+    //i2c_write1ByteRegister(ACC_DEVICE_ADDRESS_2,CTRL_REG6_XL, 00000000); // Writes data to stop the gyroscope (bus, adress, data))
     
+    i2c_write1ByteRegister(ACC_DEVICE_ADDRESS_1,CTRL_REG6_XL, 0B11001000); //accelerometer on
+    i2c_write1ByteRegister(ACC_DEVICE_ADDRESS_1,FIFO_CTRL, 0xC0); // writes to set continuous measurement on (bus, adress, data))
+
     while (1)
     {
         I2CSIMPLE_example();
