@@ -61,6 +61,8 @@ For this example application to work the following needs to be done:
 
 #include "../mcc.h"
 #include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
 
 #define MAGN_DEVICE_ADDRESS_1 0x1E //bus number (aflezen op plaatje)
 #define MAGN_DEVICE_ADDRESS_2 0x1C
@@ -87,6 +89,9 @@ uint8_t receiveDatazl = 0;
 uint8_t receiveDatazh = 0;
 uint8_t receiveDataFIFO = 15;
 uint8_t receiveData17 = 15;
+
+int i=0;
+int max=0;
 /**
  *  \ingroup doc_driver_i2c_example
  *  \brief Call this function to run the example
@@ -96,7 +101,12 @@ uint8_t receiveData17 = 15;
  *  \return none
  */
 void I2CSIMPLE_example(void)
-{
+{ /*
+    typedef enum { lower, higher } Data;
+    typedef struct{
+        (Data.lower<<8) + Data.higher
+    };
+   */        
     // Note that the first 2 bytes of the data to be send will be EEPROM high and low Address respectively.
     // Since we are writing to locations starting from 0x0000, the first 2 bytes will be 0x00.
     // The actual data be written starts from 3rd index of the array
@@ -107,7 +117,7 @@ void I2CSIMPLE_example(void)
 	//receiveDataFIFO = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, FIFO_SRC);
     //receiveData17 = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, 0x23);
 
-    //receiveData = i2c_read2ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_X_L_XL); //(bus, adress, size)
+    //receiveData = i2c_read2ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_X_L_XL); //(bus, address, size)
     
     receiveDataxl = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_X_L_XL);
     receiveDataxh = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_X_H_XL);
@@ -117,14 +127,42 @@ void I2CSIMPLE_example(void)
     
     receiveDatazl = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_Z_L_XL);
     receiveDatazh = i2c_read1ByteRegister(ACC_DEVICE_ADDRESS_1, OUT_Z_H_XL);
-    int16_t  total_x = (receiveDataxh<<8 )+ receiveDataxl;
+    
+    
+    int16_t  total_x = (receiveDataxh<<8 )+ receiveDataxl;  
     int16_t  total_y = (receiveDatayh<<8 )+ receiveDatayl;
     int16_t  total_z = (receiveDatazh<<8 )+ receiveDatazl;
+    
     //i2c_writeNBytes(EEPROM_DEVICE_ADDRESS,sendData,sizeof(sendData)); // Writes sendData[] to EEPROM
     // Sent data is temporarily stored in the on-chip page buffer, and will be written into memory once the master has transmitted a Stop condition.
     // The delay is to make sure EEPROM gets enough time to write from on-chip page buffer to memory.
     __delay_ms(100);
     
+    printf(" data_x: %d\n\r", total_x);
+    printf(" data_y: %d\n\r", total_y);
+    printf(" data_z: %d\n\r", total_z);
+    
+    int total = abs(total_x) + abs(total_y) + abs(total_z)-1300;//-1300 om rekening te houden met zwaarteveld
+    printf(" total: %d\n\r", total);
+    
+   
+    //Piekdetector
+    if (total > max)
+    {
+        max = total;
+        i = 0;}
+    else{
+        if (i == 60){ //om de halve seconde (aan te passen door dit of door delay in main)
+            max = 0;
+            i = 0;
+        }
+        else{
+            i++;
+        }
+    }
+    printf(" max: %d\n\r", max);
+    printf(" i: %d\n\r", i);
+
     //DELAY_milliseconds(10); 
 	
     //Before we start reading the EEPROM, we understand the EEPROM is currently pointing to the (last write location + 1).
@@ -136,9 +174,12 @@ void I2CSIMPLE_example(void)
 
     //Once the eeprom address is set, we can simply start reading N number of bytes starting from that location.
     //i2c_readNBytes(EEPROM_DEVICE_ADDRESS,receiveData,sizeof(receiveData));
+    
+    /*
     printf(" X: %d\n\r",total_x);
     printf(" Y: %d\n\r",total_y);
     printf(" Z: %d\n\r",total_z);
+    */
     
     //printf("X_high %x\n\r", receiveDataxh);
     //printf("X_low %x\n\r", receiveDataxl);
@@ -154,16 +195,44 @@ void I2CSIMPLE_example(void)
     
     /* We zullen nu de bekomen resultaten omzetten naar een waarde die begrepen wordt door de pingpongtoren
      Voor de 16g-schaal die we gebruiken wordt in de datasheet een schaling van 0.732 mg/LSB gebruikt.*/
-    float total_x2;
+    /*
+    signed int total_x2 = total_x;
+    signed int total_y2 = total_y;
+    signed int total_z2 = total_z;
+    int total = total_x2^2 + total_y2^2 + total_z2^2;
+    
+    printf(" data_x: %d\n\r", total_x);
+    printf(" data_y: %d\n\r", total_y);
+    printf(" data_z: %d\n\r", total_z);
+    */
+    /*
+    signed int total_x2 = receiveDataxh;
+    signed int total_y2 = receiveDatayh;
+    signed int total_z2 = receiveDatazh;
+    printf(" x2: %d\n\r", total_x2);
+    int total = (total_x2^2 + total_y2^2 + total_z2^2);
+    
+    signed int t = -50;
+    int n = abs(t);
+    printf(" n: %d\n\r", n);
+    int t2 = n*n ;
+    printf(" t: %d\n\r", t2);
+    */
+    /*
+    printf(" x: %d\n\r",total_x);
     total_x2 = total_x*0.000732;
-    float total_x3;
-    total_x3 = total_x2^2
-    total_x = total_x*0.000732;
-    total_y = total_y*0.000732;
-    total_z = total_z*0.000732;
-    printf(" X_new: %d\n\r",total_x);
-    printf(" Y_new: %d\n\r",total_y);
-    printf(" Z_new: %d\n\r",total_z);
+    total_y2 = total_y*0.000732;
+    total_z2 = total_z*0.000732;
+    printf(" x2: %d\n\r",total_x2);
+    printf(" x2: %d\n\r",total_x2^2);
+    
+    
+    float total = sqrt(total_x2^2+total_y2^2+total_z2^2)*100;
+
+    printf(" x2: %d\n\r",total_x2);
+    printf(" y2: %d\n\r",total_y2);
+    printf(" z2: %d\n\r",total_z2);
+    */
 }
 /**
  End of File

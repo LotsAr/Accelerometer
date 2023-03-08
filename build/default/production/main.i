@@ -11525,6 +11525,6 @@ void main(void)
     while (1)
     {
         I2CSIMPLE_example();
-        _delay((unsigned long)((1000)*(32000000/4000.0)));
+        _delay((unsigned long)((500)*(32000000/4000.0)));
     }
 }
