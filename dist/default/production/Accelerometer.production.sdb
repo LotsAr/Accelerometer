@@ -264,15 +264,15 @@ I2C1_NULL 5
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 "213 C:\Users\Woensdag\Documents\GitHub\Accelerometer/mcc_generated_files/i2c1_master.h
 [v _MSSP1_InterruptHandler MSSP1_InterruptHandler `*.37(v  1 e 2 0 ]
-[s S1068 . 1 `uc 1 INTEDG 1 0 :1:0 
+[s S1062 . 1 `uc 1 INTEDG 1 0 :1:0 
 `uc 1 . 1 0 :5:1 
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
 "365 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18345.h
-[u S1073 . 1 `S1068 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES1073  1 e 1 @11 ]
-[s S392 . 1 `uc 1 TMR1IF 1 0 :1:0 
+[u S1067 . 1 `S1062 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1067  1 e 1 @11 ]
+[s S386 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR2IF 1 0 :1:1 
 `uc 1 BCL1IF 1 0 :1:2 
 `uc 1 SSP1IF 1 0 :1:3 
@@ -282,15 +282,15 @@ I2C1_NULL 5
 `uc 1 TMR1GIF 1 0 :1:7 
 ]
 "586
-[u S401 . 1 `S392 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES401  1 e 1 @17 ]
+[u S395 . 1 `S386 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES395  1 e 1 @17 ]
 "1551
 [v _TRISA TRISA `VEuc  1 e 1 @140 ]
 "1596
 [v _TRISB TRISB `VEuc  1 e 1 @141 ]
 "1635
 [v _TRISC TRISC `VEuc  1 e 1 @142 ]
-[s S862 . 1 `uc 1 TMR1IE 1 0 :1:0 
+[s S856 . 1 `uc 1 TMR1IE 1 0 :1:0 
 `uc 1 TMR2IE 1 0 :1:1 
 `uc 1 BCL1IE 1 0 :1:2 
 `uc 1 SSP1IE 1 0 :1:3 
@@ -300,8 +300,8 @@ I2C1_NULL 5
 `uc 1 TMR1GIE 1 0 :1:7 
 ]
 "1747
-[u S871 . 1 `S862 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES871  1 e 1 @145 ]
+[u S865 . 1 `S856 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES865  1 e 1 @145 ]
 "1978
 [v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
 "2294
@@ -326,7 +326,7 @@ I2C1_NULL 5
 [v _SP1BRGH SP1BRGH `VEuc  1 e 1 @412 ]
 "3339
 [v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
-[s S434 . 1 `uc 1 RX9D 1 0 :1:0 
+[s S428 . 1 `uc 1 RX9D 1 0 :1:0 
 `uc 1 OERR 1 0 :1:1 
 `uc 1 FERR 1 0 :1:2 
 `uc 1 ADDEN 1 0 :1:3 
@@ -336,11 +336,11 @@ I2C1_NULL 5
 `uc 1 SPEN 1 0 :1:7 
 ]
 "3365
-[u S443 . 1 `S434 1 . 1 0 ]
-[v _RC1STAbits RC1STAbits `VES443  1 e 1 @413 ]
+[u S437 . 1 `S428 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES437  1 e 1 @413 ]
 "3519
 [v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
-[s S413 . 1 `uc 1 TX9D 1 0 :1:0 
+[s S407 . 1 `uc 1 TX9D 1 0 :1:0 
 `uc 1 TRMT 1 0 :1:1 
 `uc 1 BRGH 1 0 :1:2 
 `uc 1 SENDB 1 0 :1:3 
@@ -350,8 +350,8 @@ I2C1_NULL 5
 `uc 1 CSRC 1 0 :1:7 
 ]
 "3545
-[u S422 . 1 `S413 1 . 1 0 ]
-[v _TX1STAbits TX1STAbits `VES422  1 e 1 @414 ]
+[u S416 . 1 `S407 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES416  1 e 1 @414 ]
 "3699
 [v _BAUD1CON BAUD1CON `VEuc  1 e 1 @415 ]
 "3945
@@ -366,7 +366,7 @@ I2C1_NULL 5
 [v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
 "4858
 [v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
-[s S841 . 1 `uc 1 BF 1 0 :1:0 
+[s S835 . 1 `uc 1 BF 1 0 :1:0 
 `uc 1 UA 1 0 :1:1 
 `uc 1 R_nW 1 0 :1:2 
 `uc 1 S 1 0 :1:3 
@@ -376,27 +376,27 @@ I2C1_NULL 5
 `uc 1 SMP 1 0 :1:7 
 ]
 "4880
-[u S850 . 1 `S841 1 . 1 0 ]
-[v _SSP1STATbits SSP1STATbits `VES850  1 e 1 @532 ]
+[u S844 . 1 `S835 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES844  1 e 1 @532 ]
 "4980
 [v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
-[s S640 . 1 `uc 1 SSPM 1 0 :4:0 
+[s S634 . 1 `uc 1 SSPM 1 0 :4:0 
 `uc 1 CKP 1 0 :1:4 
 `uc 1 SSPEN 1 0 :1:5 
 `uc 1 SSPOV 1 0 :1:6 
 `uc 1 WCOL 1 0 :1:7 
 ]
 "5013
-[s S646 . 1 `uc 1 SSPM0 1 0 :1:0 
+[s S640 . 1 `uc 1 SSPM0 1 0 :1:0 
 `uc 1 SSPM1 1 0 :1:1 
 `uc 1 SSPM2 1 0 :1:2 
 `uc 1 SSPM3 1 0 :1:3 
 ]
-[u S651 . 1 `S640 1 . 1 0 `S646 1 . 1 0 ]
-[v _SSP1CON1bits SSP1CON1bits `VES651  1 e 1 @533 ]
+[u S645 . 1 `S634 1 . 1 0 `S640 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES645  1 e 1 @533 ]
 "5250
 [v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
-[s S808 . 1 `uc 1 SEN 1 0 :1:0 
+[s S802 . 1 `uc 1 SEN 1 0 :1:0 
 `uc 1 RSEN 1 0 :1:1 
 `uc 1 PEN 1 0 :1:2 
 `uc 1 RCEN 1 0 :1:3 
@@ -406,8 +406,8 @@ I2C1_NULL 5
 `uc 1 GCEN 1 0 :1:7 
 ]
 "5272
-[u S817 . 1 `S808 1 . 1 0 ]
-[v _SSP1CON2bits SSP1CON2bits `VES817  1 e 1 @534 ]
+[u S811 . 1 `S802 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES811  1 e 1 @534 ]
 "6202
 [v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
 "6247
@@ -468,14 +468,14 @@ I2C1_NULL 5
 [v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
 "69
 [v _nout nout `i  1 s 2 nout ]
-[s S346 . 1 `uc 1 perr 1 0 :1:0 
+[s S340 . 1 `uc 1 perr 1 0 :1:0 
 `uc 1 ferr 1 0 :1:1 
 `uc 1 oerr 1 0 :1:2 
 `uc 1 reserved 1 0 :5:3 
 ]
 "52 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c
-[u S351 . 1 `S346 1 . 1 0 `uc 1 status 1 0 ]
-[v _eusartRxLastError eusartRxLastError `VES351  1 e 1 0 ]
+[u S345 . 1 `S340 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES345  1 e 1 0 ]
 "58
 [v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
 "59
@@ -500,13 +500,13 @@ I2C1_NULL 5
 [v _max max `i  1 e 2 0 ]
 "146 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/i2c1_master.c
 [v _i2c1_fsmStateTable i2c1_fsmStateTable `DC[16]*.37(E7050  1 e 32 0 ]
-[s S614 . 29 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.4v 1 callbackPayload 6 12 `us 1 time_out 2 18 `us 1 time_out_value 2 20 `uc 1 address 1 22 `*.4uc 1 data_ptr 1 23 `ui 1 data_length 2 24 `E7050 1 state 1 26 `E355 1 error 1 27 `uc 1 addressNackCheck 1 28 :1:0 
+[s S608 . 29 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.4v 1 callbackPayload 6 12 `us 1 time_out 2 18 `us 1 time_out_value 2 20 `uc 1 address 1 22 `*.4uc 1 data_ptr 1 23 `ui 1 data_length 2 24 `E7050 1 state 1 26 `E355 1 error 1 27 `uc 1 addressNackCheck 1 28 :1:0 
 `uc 1 busy 1 28 :1:1 
 `uc 1 inUse 1 28 :1:2 
 `uc 1 bufferFree 1 28 :1:3 
 ]
 "165
-[v _I2C1_Status I2C1_Status `S614  1 e 29 0 ]
+[v _I2C1_Status I2C1_Status `S608  1 e 29 0 ]
 "53 C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
 [v _main main `(v  1 e 1 0 ]
 {
@@ -578,7 +578,7 @@ I2C1_NULL 5
 "103 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/examples/i2c_simple_example.c
 [v _I2CSIMPLE_example I2CSIMPLE_example `(v  1 e 1 0 ]
 {
-"145
+"144
 [v I2CSIMPLE_example@total total `i  1 a 2 28 ]
 "134
 [v I2CSIMPLE_example@total_z total_z `s  1 a 2 26 ]
@@ -586,7 +586,7 @@ I2C1_NULL 5
 [v I2CSIMPLE_example@total_y total_y `s  1 a 2 24 ]
 "132
 [v I2CSIMPLE_example@total_x total_x `s  1 a 2 22 ]
-"236
+"235
 } 0
 "5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\printf.c
 [v _printf printf `(i  1 e 2 0 ]
@@ -600,40 +600,40 @@ I2C1_NULL 5
 "1390 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
 [v _vfprintf vfprintf `(i  1 e 2 0 ]
 {
-[s S1605 _IO_FILE 0 ]
-[v vfprintf@fp fp `*.1S1605  1 a 1 wreg ]
+[s S1603 _IO_FILE 0 ]
+[v vfprintf@fp fp `*.1S1603  1 a 1 wreg ]
 "1393
 [v vfprintf@cfmt cfmt `*.25uc  1 a 2 70 ]
 "1390
-[v vfprintf@fp fp `*.1S1605  1 a 1 wreg ]
+[v vfprintf@fp fp `*.1S1603  1 a 1 wreg ]
 [v vfprintf@fmt fmt `*.25DCuc  1 p 2 9 ]
 [v vfprintf@ap ap `*.4*.4v  1 p 1 11 ]
 "1395
 "1390
-[v vfprintf@fp fp `*.1S1605  1 a 1 69 ]
+[v vfprintf@fp fp `*.1S1603  1 a 1 69 ]
 "1404
 } 0
 "692
 [v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
 {
-[s S1605 _IO_FILE 0 ]
-[v vfpfcnvrt@fp fp `*.1S1605  1 a 1 wreg ]
+[s S1603 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.1S1603  1 a 1 wreg ]
 "696
 [v vfpfcnvrt@ll ll `o  1 a 8 0 ]
 "692
-[v vfpfcnvrt@fp fp `*.1S1605  1 a 1 wreg ]
+[v vfpfcnvrt@fp fp `*.1S1603  1 a 1 wreg ]
 [v vfpfcnvrt@fmt fmt `*.4*.25uc  1 p 1 60 ]
 [v vfpfcnvrt@ap ap `*.4*.4v  1 p 1 61 ]
 "702
 "692
-[v vfpfcnvrt@fp fp `*.1S1605  1 a 1 8 ]
+[v vfpfcnvrt@fp fp `*.1S1603  1 a 1 8 ]
 "1387
 } 0
 "287
 [v _dtoa dtoa `(i  1 s 2 dtoa ]
 {
-[s S1605 _IO_FILE 0 ]
-[v dtoa@fp fp `*.1S1605  1 a 1 wreg ]
+[s S1603 _IO_FILE 0 ]
+[v dtoa@fp fp `*.1S1603  1 a 1 wreg ]
 "290
 [v dtoa@n n `o  1 a 8 50 ]
 "289
@@ -642,28 +642,28 @@ I2C1_NULL 5
 [v dtoa@w w `i  1 a 2 46 ]
 [v dtoa@p p `i  1 a 2 44 ]
 "287
-[v dtoa@fp fp `*.1S1605  1 a 1 wreg ]
+[v dtoa@fp fp `*.1S1603  1 a 1 wreg ]
 [v dtoa@d d `o  1 p 8 30 ]
 "293
 "287
-[v dtoa@fp fp `*.1S1605  1 a 1 43 ]
+[v dtoa@fp fp `*.1S1603  1 a 1 43 ]
 "328
 } 0
 "72
 [v _pad pad `(i  1 s 2 pad ]
 {
-[s S1605 _IO_FILE 0 ]
-[v pad@fp fp `*.1S1605  1 a 1 wreg ]
+[s S1603 _IO_FILE 0 ]
+[v pad@fp fp `*.1S1603  1 a 1 wreg ]
 "74
 [v pad@w w `i  1 a 2 27 ]
 [v pad@i i `i  1 a 2 25 ]
 "72
-[v pad@fp fp `*.1S1605  1 a 1 wreg ]
+[v pad@fp fp `*.1S1603  1 a 1 wreg ]
 [v pad@buf buf `*.5uc  1 p 1 21 ]
 [v pad@p p `i  1 p 2 22 ]
 "77
 "72
-[v pad@fp fp `*.1S1605  1 a 1 29 ]
+[v pad@fp fp `*.1S1603  1 a 1 29 ]
 "95
 } 0
 "5 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\strlen.c
@@ -688,9 +688,9 @@ I2C1_NULL 5
 [v fputs@c c `uc  1 a 1 17 ]
 "8
 [v fputs@s s `*.5DCuc  1 a 1 wreg ]
-[u S1584 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
-[s S1587 _IO_FILE 10 `S1584 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
-[v fputs@fp fp `*.1S1587  1 p 1 13 ]
+[u S1582 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S1585 _IO_FILE 10 `S1582 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
+[v fputs@fp fp `*.1S1585  1 p 1 13 ]
 "13
 [v fputs@s s `*.5DCuc  1 a 1 20 ]
 "19
@@ -699,9 +699,9 @@ I2C1_NULL 5
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 5 ]
-[u S1584 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
-[s S1587 _IO_FILE 10 `S1584 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
-[v fputc@fp fp `*.1S1587  1 p 1 7 ]
+[u S1582 . 2 `*.1uc 1 buffer 2 0 `*.1DCuc 1 source 2 0 ]
+[s S1585 _IO_FILE 10 `S1582 1 . 2 0 `i 1 count 2 2 `[2]uc 1 ungetbuf 2 4 `i 1 ungetcnt 2 6 `i 1 limit 2 8 ]
+[v fputc@fp fp `*.1S1585  1 p 1 7 ]
 "24
 } 0
 "146 C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/eusart.c

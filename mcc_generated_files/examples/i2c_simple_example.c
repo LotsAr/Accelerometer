@@ -136,7 +136,6 @@ void I2CSIMPLE_example(void)
     //i2c_writeNBytes(EEPROM_DEVICE_ADDRESS,sendData,sizeof(sendData)); // Writes sendData[] to EEPROM
     // Sent data is temporarily stored in the on-chip page buffer, and will be written into memory once the master has transmitted a Stop condition.
     // The delay is to make sure EEPROM gets enough time to write from on-chip page buffer to memory.
-    __delay_ms(100);
     
     printf(" data_x: %d\n\r", total_x);
     printf(" data_y: %d\n\r", total_y);
@@ -152,7 +151,7 @@ void I2CSIMPLE_example(void)
         max = total;
         i = 0;}
     else{
-        if (i == 60){ //om de halve seconde (aan te passen door dit of door delay in main)
+        if (i == 600){ //om de minuut wordt het maximum gereset (aan te passen door dit of door delay in main)
             max = 0;
             i = 0;
         }

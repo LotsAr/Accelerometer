@@ -1120,8 +1120,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 79:         I2CSIMPLE_example();
 [e ( _I2CSIMPLE_example ..  ]
 "80
-[; ;main.c: 80:         _delay((unsigned long)((500)*(32000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+[; ;main.c: 80:         _delay((unsigned long)((100)*(32000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
 "81
 [; ;main.c: 81:     }
 }

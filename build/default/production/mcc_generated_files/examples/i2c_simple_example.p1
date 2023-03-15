@@ -3,10 +3,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 "37 mcc_generated_files/examples/../drivers/i2c_simple_master.h
 [; ;mcc_generated_files/examples/../drivers/i2c_simple_master.h: 37: uint8_t i2c_read1ByteRegister(i2c1_address_t address, uint8_t reg);
 [v _i2c_read1ByteRegister `(uc ~T0 @X0 0 ef2`uc`uc ]
-[v F192 `(v ~T0 @X0 1 tf1`ul ]
-"12 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\builtins.h
-[v __delay `JF192 ~T0 @X0 0 e ]
-[p i __delay ]
 "105 C:\Program Files\Microchip\xc8\v2.35\pic\include\c99\stdio.h
 [; ;C:\Program Files\Microchip\xc8\v2.35\pic\include\c99\stdio.h: 105: int printf(const char *restrict, ...);
 [v _printf `(i ~T0 @X0 0 ev`*Cuc ]
@@ -1172,80 +1168,77 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcc_generated_files/examples/i2c_simple_example.c: 134:     int16_t total_z = (receiveDatazh<<8 )+ receiveDatazl;
 [v _total_z `s ~T0 @X0 1 a ]
 [e = _total_z -> + << -> _receiveDatazh `i -> 8 `i -> _receiveDatazl `i `s ]
-"139
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 139:     _delay((unsigned long)((100)*(32000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
-"141
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 141:     printf(" data_x: %d\n\r", total_x);
+"140
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 140:     printf(" data_x: %d\n\r", total_x);
 [e ( _printf , (. :s 1C -> _total_x `i ]
-"142
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 142:     printf(" data_y: %d\n\r", total_y);
+"141
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 141:     printf(" data_y: %d\n\r", total_y);
 [e ( _printf , (. :s 2C -> _total_y `i ]
-"143
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 143:     printf(" data_z: %d\n\r", total_z);
+"142
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 142:     printf(" data_z: %d\n\r", total_z);
 [e ( _printf , (. :s 3C -> _total_z `i ]
-"145
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 145:     int total = abs(total_x) + abs(total_y) + abs(total_z)-1300;
+"144
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 144:     int total = abs(total_x) + abs(total_y) + abs(total_z)-1300;
 [v _total `i ~T0 @X0 1 a ]
 [e = _total - + + ( _abs (1 -> _total_x `i ( _abs (1 -> _total_y `i ( _abs (1 -> _total_z `i -> 1300 `i ]
-"146
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 146:     printf(" total: %d\n\r", total);
+"145
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 145:     printf(" total: %d\n\r", total);
 [e ( _printf , (. :s 4C _total ]
-"150
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 150:     if (total > max)
+"149
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 149:     if (total > max)
 [e $ ! > _total _max 968  ]
-"151
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 151:     {
+"150
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 150:     {
 {
-"152
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 152:         max = total;
+"151
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 151:         max = total;
 [e = _max _total ]
-"153
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 153:         i = 0;}
+"152
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 152:         i = 0;}
 [e = _i -> 0 `i ]
 }
 [e $U 969  ]
-"154
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 154:     else{
+"153
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 153:     else{
 [e :U 968 ]
 {
-"155
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 155:         if (i == 60){
-[e $ ! == _i -> 60 `i 970  ]
+"154
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 154:         if (i == 600){
+[e $ ! == _i -> 600 `i 970  ]
 {
-"156
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 156:             max = 0;
+"155
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 155:             max = 0;
 [e = _max -> 0 `i ]
-"157
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 157:             i = 0;
+"156
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 156:             i = 0;
 [e = _i -> 0 `i ]
-"158
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 158:         }
+"157
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 157:         }
 }
 [e $U 971  ]
-"159
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 159:         else{
+"158
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 158:         else{
 [e :U 970 ]
 {
-"160
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 160:             i++;
+"159
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 159:             i++;
 [e ++ _i -> 1 `i ]
-"161
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 161:         }
+"160
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 160:         }
 }
 [e :U 971 ]
-"162
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 162:     }
+"161
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 161:     }
 }
 [e :U 969 ]
-"163
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 163:     printf(" max: %d\n\r", max);
+"162
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 162:     printf(" max: %d\n\r", max);
 [e ( _printf , (. :s 5C _max ]
-"164
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 164:     printf(" i: %d\n\r", i);
+"163
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 163:     printf(" i: %d\n\r", i);
 [e ( _printf , (. :s 6C _i ]
-"236
-[; ;mcc_generated_files/examples/i2c_simple_example.c: 236: }
+"235
+[; ;mcc_generated_files/examples/i2c_simple_example.c: 235: }
 [e :UE 967 ]
 }
 [p f _printf 8388736 ]

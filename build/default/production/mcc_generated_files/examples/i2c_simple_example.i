@@ -11895,7 +11895,6 @@ void I2CSIMPLE_example(void)
 
 
 
-    _delay((unsigned long)((100)*(32000000/4000.0)));
 
     printf(" data_x: %d\n\r", total_x);
     printf(" data_y: %d\n\r", total_y);
@@ -11911,7 +11910,7 @@ void I2CSIMPLE_example(void)
         max = total;
         i = 0;}
     else{
-        if (i == 60){
+        if (i == 600){
             max = 0;
             i = 0;
         }
@@ -11921,5 +11920,5 @@ void I2CSIMPLE_example(void)
     }
     printf(" max: %d\n\r", max);
     printf(" i: %d\n\r", i);
-# 236 "mcc_generated_files/examples/i2c_simple_example.c"
+# 235 "mcc_generated_files/examples/i2c_simple_example.c"
 }

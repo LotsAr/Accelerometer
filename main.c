@@ -77,7 +77,7 @@ void main(void)
     while (1)
     {
         I2CSIMPLE_example();
-        __delay_ms(500);
+        __delay_ms(100);
     }
 }
 /**
