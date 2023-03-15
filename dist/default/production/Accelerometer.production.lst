@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.35 build 20211206165544 
-                                                                                               Wed Mar 15 08:16:24 2023
+                                                                                               Wed Mar 15 13:20:24 2023
 
 Microchip MPLAB XC8 C Compiler v2.35 (Free license) build 20211206165544 Og1 
      1                           	processor	16F18345
@@ -3110,9 +3110,9 @@ Microchip MPLAB XC8 C Compiler v2.35 (Free license) build 20211206165544 Og1
   3096  0E21                     _SSP1DATPPS	set	3617
   3097  0E20                     _SSP1CLKPPS	set	3616
   3098  0E24                     _RXPPS	set	3620
-  3099  0EA2                     _RC2PPS	set	3746
-  3100  0EA1                     _RC1PPS	set	3745
-  3101  0E9F                     _RB7PPS	set	3743
+  3099  0EA6                     _RC6PPS	set	3750
+  3100  0E9F                     _RB7PPS	set	3743
+  3101  0EA3                     _RC3PPS	set	3747
   3102                           
   3103                           	psect	stringtext2
   3104  1020                     __pstringtext2:
@@ -4700,8 +4700,8 @@ Microchip MPLAB XC8 C Compiler v2.35 (Free license) build 20211206165544 Og1
   4649  07A4  008E               	movwf	14	;volatile
   4650  07A5                     l3456:
   4651                           
-  4652                           ;mcc_generated_files/pin_manager.c: 74:     ANSELC = 0xE9;
-  4653  07A5  30E9               	movlw	233
+  4652                           ;mcc_generated_files/pin_manager.c: 74:     ANSELC = 0xA7;
+  4653  07A5  30A7               	movlw	167
   4654  07A6  0023               	movlb	3	; select bank3
   4655  07A7  008E               	movwf	14	;volatile
   4656  07A8                     l3458:
@@ -4774,29 +4774,29 @@ Microchip MPLAB XC8 C Compiler v2.35 (Free license) build 20211206165544 Og1
   4723  07C4  00A4               	movwf	36	;volatile
   4724  07C5                     l3476:
   4725                           
-  4726                           ;mcc_generated_files/pin_manager.c: 114:     SSP1CLKPPS = 0x12;
-  4727  07C5  3012               	movlw	18
+  4726                           ;mcc_generated_files/pin_manager.c: 114:     SSP1CLKPPS = 0x16;
+  4727  07C5  3016               	movlw	22
   4728  07C6  00A0               	movwf	32	;volatile
   4729  07C7                     l3478:
   4730                           
-  4731                           ;mcc_generated_files/pin_manager.c: 115:     RB7PPS = 0x14;
-  4732  07C7  3014               	movlw	20
+  4731                           ;mcc_generated_files/pin_manager.c: 115:     RC3PPS = 0x19;
+  4732  07C7  3019               	movlw	25
   4733  07C8  003D               	movlb	29	; select bank29
-  4734  07C9  009F               	movwf	31	;volatile
+  4734  07C9  00A3               	movwf	35	;volatile
   4735  07CA                     l3480:
   4736                           
-  4737                           ;mcc_generated_files/pin_manager.c: 116:     RC1PPS = 0x19;
-  4738  07CA  3019               	movlw	25
-  4739  07CB  00A1               	movwf	33	;volatile
+  4737                           ;mcc_generated_files/pin_manager.c: 116:     RB7PPS = 0x14;
+  4738  07CA  3014               	movlw	20
+  4739  07CB  009F               	movwf	31	;volatile
   4740  07CC                     l3482:
   4741                           
-  4742                           ;mcc_generated_files/pin_manager.c: 117:     RC2PPS = 0x18;
+  4742                           ;mcc_generated_files/pin_manager.c: 117:     RC6PPS = 0x18;
   4743  07CC  3018               	movlw	24
-  4744  07CD  00A2               	movwf	34	;volatile
+  4744  07CD  00A6               	movwf	38	;volatile
   4745  07CE                     l3484:
   4746                           
-  4747                           ;mcc_generated_files/pin_manager.c: 118:     SSP1DATPPS = 0x11;
-  4748  07CE  3011               	movlw	17
+  4747                           ;mcc_generated_files/pin_manager.c: 118:     SSP1DATPPS = 0x13;
+  4748  07CE  3013               	movlw	19
   4749  07CF  003C               	movlb	28	; select bank28
   4750  07D0  00A1               	movwf	33	;volatile
   4751  07D1                     l293:
@@ -14421,7 +14421,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.35 build 20211206165544 
-Symbol Table                                                                                   Wed Mar 15 08:16:24 2023
+Symbol Table                                                                                   Wed Mar 15 13:20:24 2023
 
                                                        _i 00C5  
                                                       l52 06C4  
@@ -15039,9 +15039,8 @@ Symbol Table                                                                    
                                                   _ANSELB 018D  
                                                   _ANSELC 018E  
                                                   _RC1REG 0199  
-                                                  _RC1PPS 0EA1  
                                                   _RC1STA 019D  
-                                                  _RC2PPS 0EA2  
+                                                  _RC3PPS 0EA3  
                                                   i1l3002 0CFA  
                                                   i1l3010 0DD9  
                                                   _RB7PPS 0E9F  
@@ -15055,6 +15054,7 @@ Symbol Table                                                                    
                                                   i1l3114 0BD7  
                                                   i1l3106 0C1E  
                                                   _ODCONB 028D  
+                                                  _RC6PPS 0EA6  
                                                   _ODCONC 028E  
                                                   i1l3300 071B  
                                                   i1l3108 0C21  

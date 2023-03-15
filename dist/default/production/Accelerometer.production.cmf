@@ -122,7 +122,7 @@ dataBANK0 BANK0 1 6C 6C 1 1 1
 dataCOMMON COMMON 1 7D 7D 1 1 1
 clrtext CODE 0 C47 C47 6 2 1
 config CONFIG 4 8007 8007 4 2 1
-$C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
+$C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
 idloc IDLOC 5 8000 8000 4 2 1
 reset_vec CODE 0 0 0 2 2 1
 end_init CODE 0 28 28 2 2 1
@@ -215,30 +215,30 @@ STRING 106B-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Accelerometer.production.o
-2A cinit CODE >6298:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-2A cinit CODE >6301:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-2A cinit CODE >6380:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-2D cinit CODE >6381:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-2E cinit CODE >6385:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-31 cinit CODE >6386:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-32 cinit CODE >6403:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-33 cinit CODE >6404:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-34 cinit CODE >6408:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-35 cinit CODE >6409:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-36 cinit CODE >6410:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-37 cinit CODE >6411:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-38 cinit CODE >6412:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-39 cinit CODE >6413:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-3C cinit CODE >6417:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-3D cinit CODE >6418:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-3E cinit CODE >6419:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-3F cinit CODE >6420:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-40 cinit CODE >6421:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-41 cinit CODE >6422:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-44 cinit CODE >6428:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-44 cinit CODE >6430:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-45 cinit CODE >6431:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-46 cinit CODE >6432:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
+2A cinit CODE >6298:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+2A cinit CODE >6301:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+2A cinit CODE >6380:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+2D cinit CODE >6381:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+2E cinit CODE >6385:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+31 cinit CODE >6386:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+32 cinit CODE >6403:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+33 cinit CODE >6404:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+34 cinit CODE >6408:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+35 cinit CODE >6409:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+36 cinit CODE >6410:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+37 cinit CODE >6411:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+38 cinit CODE >6412:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+39 cinit CODE >6413:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+3C cinit CODE >6417:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+3D cinit CODE >6418:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+3E cinit CODE >6419:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+3F cinit CODE >6420:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+40 cinit CODE >6421:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+41 cinit CODE >6422:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+44 cinit CODE >6428:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+44 cinit CODE >6430:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+45 cinit CODE >6431:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+46 cinit CODE >6432:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
 4 intentry CODE >52:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
 6 intentry CODE >55:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
 A intentry CODE >57:C:\Users\Woensdag\Documents\GitHub\Accelerometer\mcc_generated_files/interrupt_manager.c
@@ -956,14 +956,14 @@ FCE maintext CODE >74:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
 FDE maintext CODE >75:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
 FEE maintext CODE >79:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
 FF1 maintext CODE >80:C:\Users\Woensdag\Documents\GitHub\Accelerometer\main.c
-C47 clrtext CODE >6392:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-C47 clrtext CODE >6393:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-C48 clrtext CODE >6394:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-C48 clrtext CODE >6395:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-C49 clrtext CODE >6396:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-C4A clrtext CODE >6397:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-C4B clrtext CODE >6398:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
-C4C clrtext CODE >6399:C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
+C47 clrtext CODE >6392:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+C47 clrtext CODE >6393:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+C48 clrtext CODE >6394:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+C48 clrtext CODE >6395:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+C49 clrtext CODE >6396:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+C4A clrtext CODE >6397:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+C4B clrtext CODE >6398:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
+C4C clrtext CODE >6399:C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -1014,7 +1014,7 @@ _PMD5 916 0 ABS 0 - dist/default/production\Accelerometer.production.o
 _WPUA 20C 0 ABS 0 - dist/default/production\Accelerometer.production.o
 _WPUB 20D 0 ABS 0 - dist/default/production\Accelerometer.production.o
 _WPUC 20E 0 ABS 0 - dist/default/production\Accelerometer.production.o
-___sp 0 0 STACK 2 stack C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
+___sp 0 0 STACK 2 stack C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
 _dbuf 120 0 BANK2 1 bssBANK2 dist/default/production\Accelerometer.production.o
 _dtoa 90 0 CODE 0 text16 dist/default/production\Accelerometer.production.o
 _main 1F92 0 CODE 0 maintext dist/default/production\Accelerometer.production.o
@@ -1025,7 +1025,7 @@ btemp 7E 0 ABS 0 - dist/default/production\Accelerometer.production.o
 pad@i 39 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
 pad@p 36 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
 pad@w 3B 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
-start 50 0 CODE 0 init C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
+start 50 0 CODE 0 init C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
 ___aomod@counter 34 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
 _EUSART_Write 1954 0 CODE 0 text22 dist/default/production\Accelerometer.production.o
 I2C1_Close@returnValue 24 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
@@ -1048,12 +1048,12 @@ __end_of_vfpfcnvrt 9B6 0 CODE 0 text15 dist/default/production\Accelerometer.pro
 __end_of_I2C1_SetDataCompleteCallback 19D4 0 CODE 0 text27 dist/default/production\Accelerometer.production.o
 __HdataCOMMON 0 0 ABS 0 dataCOMMON -
 __end_of_I2C1_MasterStartRx 17C4 0 CODE 0 text68 dist/default/production\Accelerometer.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
 __end_ofi1_I2C1_SetDataCompleteCallback 1982 0 CODE 0 text81 dist/default/production\Accelerometer.production.o
 __end_of_I2C1_DO_TX_EMPTY 1EC0 0 CODE 0 text61 dist/default/production\Accelerometer.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\Accelerometer.production.o
@@ -1105,8 +1105,8 @@ _INLVLB 38D 0 ABS 0 - dist/default/production\Accelerometer.production.o
 _INLVLC 38E 0 ABS 0 - dist/default/production\Accelerometer.production.o
 I2C1_MasterSendTxData@data 70 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
 ?_strlen 23 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
-___stackhi 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
-___stacklo 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
+___stackhi 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
+___stacklo 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
 ___aomod@dividend 2B 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
 _EUSART_Initialize 1D1E 0 CODE 0 text8 dist/default/production\Accelerometer.production.o
 __end_of_I2C1_MasterOperation 1C90 0 CODE 0 text36 dist/default/production\Accelerometer.production.o
@@ -1126,10 +1126,10 @@ EUSART_SetOverrunErrorHandler@interruptHandler 23 0 BANK0 1 cstackBANK0 dist/def
 _I2C1_DO_SEND_ADR_WRITE 18B6 0 CODE 0 text58 dist/default/production\Accelerometer.production.o
 i1I2C1_SetDataCompleteCallback@ptr 77 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
 _RB7PPS E9F 0 ABS 0 - dist/default/production\Accelerometer.production.o
-_RC1PPS EA1 0 ABS 0 - dist/default/production\Accelerometer.production.o
 _RC1REG 199 0 ABS 0 - dist/default/production\Accelerometer.production.o
 _RC1STA 19D 0 ABS 0 - dist/default/production\Accelerometer.production.o
-_RC2PPS EA2 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_RC3PPS EA3 0 ABS 0 - dist/default/production\Accelerometer.production.o
+_RC6PPS EA6 0 ABS 0 - dist/default/production\Accelerometer.production.o
 rdBlkRegCompleteHandler@p 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
 __end_of_SYSTEM_Initialize 1B2A 0 CODE 0 text2 dist/default/production\Accelerometer.production.o
 _I2C1_MasterOpen 1982 0 CODE 0 text33 dist/default/production\Accelerometer.production.o
@@ -1153,7 +1153,7 @@ _I2C1_Status A0 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.product
 _WDTCON 97 0 ABS 0 - dist/default/production\Accelerometer.production.o
 fputc@fp 27 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
 fputs@fp 2D 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
+___int_sp 0 0 STACK 2 stack C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
 wr2RegCompleteHandler@p 79 0 COMMON 1 cstackCOMMON dist/default/production\Accelerometer.production.o
 _rd2RegCompleteHandler 1A5A 0 CODE 0 text77 dist/default/production\Accelerometer.production.o
 __Hbank0 0 0 ABS 0 bank0 -
@@ -1356,7 +1356,7 @@ _receiveDatayh CC 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.produ
 _receiveDatayl CD 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
 _receiveDatazh CA 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
 _receiveDatazl CB 0 BANK1 1 bssBANK1 dist/default/production\Accelerometer.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
 strlen@a 26 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
 strlen@s 27 0 BANK0 1 cstackBANK0 dist/default/production\Accelerometer.production.o
 __pdataBANK0 6C 0 BANK0 1 dataBANK0 dist/default/production\Accelerometer.production.o
@@ -1608,8 +1608,8 @@ I2C1_SetCallback@cb 23 0 BANK0 1 cstackBANK0 dist/default/production\Acceleromet
 _SLRCONA 30C 0 ABS 0 - dist/default/production\Accelerometer.production.o
 _SLRCONB 30D 0 ABS 0 - dist/default/production\Accelerometer.production.o
 _SLRCONC 30E 0 ABS 0 - dist/default/production\Accelerometer.production.o
-___heap_hi 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
-___heap_lo 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.o
+___heap_hi 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
+___heap_lo 0 0 ABS 0 - C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.o
 __end_of_I2C1_MasterStart 17EE 0 CODE 0 text37 dist/default/production\Accelerometer.production.o
 __end_of_I2C1_MasterWrite 1882 0 CODE 0 text35 dist/default/production\Accelerometer.production.o
 __end_of_I2C1_DO_SEND_ADR_READ 18E8 0 CODE 0 text59 dist/default/production\Accelerometer.production.o

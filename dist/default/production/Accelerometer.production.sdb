@@ -456,10 +456,10 @@ I2C1_NULL 5
 [v _RXPPS RXPPS `VEuc  1 e 1 @3620 ]
 "14692
 [v _RB7PPS RB7PPS `VEuc  1 e 1 @3743 ]
-"14796
-[v _RC1PPS RC1PPS `VEuc  1 e 1 @3745 ]
-"14848
-[v _RC2PPS RC2PPS `VEuc  1 e 1 @3746 ]
+"14900
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @3747 ]
+"15056
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @3750 ]
 "55 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\doprnt.c
 [v _flags flags `i  1 s 2 flags ]
 [v _prec prec `i  1 s 2 prec ]

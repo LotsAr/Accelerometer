@@ -11225,7 +11225,7 @@ void PIN_MANAGER_Initialize(void)
 
 
 
-    ANSELC = 0xE9;
+    ANSELC = 0xA7;
     ANSELB = 0x50;
     ANSELA = 0x37;
 
@@ -11258,11 +11258,11 @@ void PIN_MANAGER_Initialize(void)
     INLVLC = 0xFF;
 # 113 "mcc_generated_files/pin_manager.c"
     RXPPS = 0x0D;
-    SSP1CLKPPS = 0x12;
+    SSP1CLKPPS = 0x16;
+    RC3PPS = 0x19;
     RB7PPS = 0x14;
-    RC1PPS = 0x19;
-    RC2PPS = 0x18;
-    SSP1DATPPS = 0x11;
+    RC6PPS = 0x18;
+    SSP1DATPPS = 0x13;
 }
 
 void PIN_MANAGER_IOC(void)

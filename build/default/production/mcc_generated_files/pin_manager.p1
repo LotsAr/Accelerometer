@@ -68,15 +68,15 @@ Version 4.0 HI-TECH Software Intermediate Code
 "13728
 [; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18345.h: 13728: extern volatile unsigned char SSP1CLKPPS __attribute__((address(0xE20)));
 [v _SSP1CLKPPS `Vuc ~T0 @X0 0 e@3616 ]
+"14900
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18345.h: 14900: extern volatile unsigned char RC3PPS __attribute__((address(0xEA3)));
+[v _RC3PPS `Vuc ~T0 @X0 0 e@3747 ]
 "14692
 [; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18345.h: 14692: extern volatile unsigned char RB7PPS __attribute__((address(0xE9F)));
 [v _RB7PPS `Vuc ~T0 @X0 0 e@3743 ]
-"14796
-[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18345.h: 14796: extern volatile unsigned char RC1PPS __attribute__((address(0xEA1)));
-[v _RC1PPS `Vuc ~T0 @X0 0 e@3745 ]
-"14848
-[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18345.h: 14848: extern volatile unsigned char RC2PPS __attribute__((address(0xEA2)));
-[v _RC2PPS `Vuc ~T0 @X0 0 e@3746 ]
+"15056
+[; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18345.h: 15056: extern volatile unsigned char RC6PPS __attribute__((address(0xEA6)));
+[v _RC6PPS `Vuc ~T0 @X0 0 e@3750 ]
 "13780
 [; ;C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16F1xxxx_DFP/1.9.163/xc8\pic\include\proc\pic16f18345.h: 13780: extern volatile unsigned char SSP1DATPPS __attribute__((address(0xE21)));
 [v _SSP1DATPPS `Vuc ~T0 @X0 0 e@3617 ]
@@ -1166,8 +1166,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcc_generated_files/pin_manager.c: 69:     TRISC = 0xFF;
 [e = _TRISC -> -> 255 `i `uc ]
 "74
-[; ;mcc_generated_files/pin_manager.c: 74:     ANSELC = 0xE9;
-[e = _ANSELC -> -> 233 `i `uc ]
+[; ;mcc_generated_files/pin_manager.c: 74:     ANSELC = 0xA7;
+[e = _ANSELC -> -> 167 `i `uc ]
 "75
 [; ;mcc_generated_files/pin_manager.c: 75:     ANSELB = 0x50;
 [e = _ANSELB -> -> 80 `i `uc ]
@@ -1214,20 +1214,20 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;mcc_generated_files/pin_manager.c: 113:     RXPPS = 0x0D;
 [e = _RXPPS -> -> 13 `i `uc ]
 "114
-[; ;mcc_generated_files/pin_manager.c: 114:     SSP1CLKPPS = 0x12;
-[e = _SSP1CLKPPS -> -> 18 `i `uc ]
+[; ;mcc_generated_files/pin_manager.c: 114:     SSP1CLKPPS = 0x16;
+[e = _SSP1CLKPPS -> -> 22 `i `uc ]
 "115
-[; ;mcc_generated_files/pin_manager.c: 115:     RB7PPS = 0x14;
-[e = _RB7PPS -> -> 20 `i `uc ]
+[; ;mcc_generated_files/pin_manager.c: 115:     RC3PPS = 0x19;
+[e = _RC3PPS -> -> 25 `i `uc ]
 "116
-[; ;mcc_generated_files/pin_manager.c: 116:     RC1PPS = 0x19;
-[e = _RC1PPS -> -> 25 `i `uc ]
+[; ;mcc_generated_files/pin_manager.c: 116:     RB7PPS = 0x14;
+[e = _RB7PPS -> -> 20 `i `uc ]
 "117
-[; ;mcc_generated_files/pin_manager.c: 117:     RC2PPS = 0x18;
-[e = _RC2PPS -> -> 24 `i `uc ]
+[; ;mcc_generated_files/pin_manager.c: 117:     RC6PPS = 0x18;
+[e = _RC6PPS -> -> 24 `i `uc ]
 "118
-[; ;mcc_generated_files/pin_manager.c: 118:     SSP1DATPPS = 0x11;
-[e = _SSP1DATPPS -> -> 17 `i `uc ]
+[; ;mcc_generated_files/pin_manager.c: 118:     SSP1DATPPS = 0x13;
+[e = _SSP1DATPPS -> -> 19 `i `uc ]
 "119
 [; ;mcc_generated_files/pin_manager.c: 119: }
 [e :UE 963 ]

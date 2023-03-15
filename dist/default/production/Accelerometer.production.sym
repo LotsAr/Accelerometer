@@ -159,9 +159,9 @@ __Lsfr2 0 0 ABS 0
 __Hsfr3 0 0 ABS 0
 _OSCFRQ 91F 0 ABS 0
 __Lsfr3 0 0 ABS 0
-_RC1PPS EA1 0 ABS 0
-_RC2PPS EA2 0 ABS 0
+_RC3PPS EA3 0 ABS 0
 __Hsfr4 0 0 ABS 0
+_RC6PPS EA6 0 ABS 0
 _RB7PPS E9F 0 ABS 0
 __Lsfr4 0 0 ABS 0
 __Hsfr5 0 0 ABS 0
@@ -793,7 +793,7 @@ idataCOMMON 17AC 17AD CODE 17AC 0
 idataBANK0 17AA 17AB CODE 17AA 0
 %locals
 dist/default/production\Accelerometer.production.o
-C:\Users\Woensdag\AppData\Local\Temp\xcAs88c.s
+C:\Users\Woensdag\AppData\Local\Temp\xcAs7t8.s
 6298 2A 0 CODE 0
 6301 2A 0 CODE 0
 6380 2A 0 CODE 0
